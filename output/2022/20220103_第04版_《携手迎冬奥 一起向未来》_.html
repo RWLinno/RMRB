@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Language" content="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>携手迎冬奥 一起向未来</title>
+    <meta name="robots" content="all" />
+    <meta name="author" content='第004版' />
+    <meta name="copyright" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <META name='filetype' content='1'>
+    <meta name='publishedtype' content='1'>
+    <meta name='pagetype' content='1'>
+    <meta name='catalogs' content='rmrbdzb'>
+    <meta name='contentid' content='rmrbdzb_xxxxxxxx'>
+    <meta name='publishdate' content='2013-07-17'>
+    <!--优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!--360 使用Google Chrome Frame-->
+    <meta name="renderer" content="webkit">
+    <link href="../../../tplimg/default.css" rel="stylesheet">
+    <SCRIPT language=Javascript src="../../../tplimg/prototype.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/mp.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/calendar2.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/new.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/range.js"></SCRIPT>
+    <script type="text/javascript" src="../../../tplimg/app.js"></script>
+    <script src="../../../tplimg/swiper.min.js"></script>
+    <link href="../../../tplimg/swiper.min.css" rel="stylesheet">
+    <script type="text/javascript">
+        function nTabs(tabObj,obj){
+            var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+            for(i=0; i <tabList.length; i++)
+            {
+                if (tabList[i].id == obj.id)
+                {
+                    document.getElementById(tabObj+"_Title"+i).className = "active";
+                    document.getElementById(tabObj+"_Content"+i).style.display = "block";
+                }else{
+                    document.getElementById(tabObj+"_Title"+i).className = "normal";
+                    document.getElementById(tabObj+"_Content"+i).style.display = "none";
+                }
+            }
+        }
+        function CopyAll()
+        
+        {
+        
+                 var obj = document.getElementById("articleContent");
+        
+                 if(obj!=null){
+        
+                           var content = obj.innerText;
+        
+                           window.clipboardData.setData("Text",content);          
+        
+                           alert("复制成功");
+        
+                 }                 
+        
+        }
+        
+        function zoomIn() {
+         newZoom= parseInt(ozoom.style.zoom)+10+'%'
+         ozoom.style.zoom =newZoom;
+         } 
+        function zoomOut() {
+         newZoom= parseInt(ozoom.style.zoom)-10+'%'
+         ozoom.style.zoom =newZoom;
+         } 
+        
+        </script>
+        <script type="text/javascript">
+            var focus_width=260;
+            var focus_height=180;
+            var text_height=20;
+            var swf_height = focus_height+text_height;
+            var pics ="";
+            var links ="";
+            var texts ="";
+            var resCount=0;
+            function showArtPics()
+            {
+            if(resCount>0)
+            {
+            pics = pics.substring(0, pics.length-1);
+            links = links.substring(0, links.length-1);
+            texts = texts.substring(0, texts.length-1);
+            var content = "";
+            content += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">';
+            content += '<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="../../../tplimg/picflash.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">';
+            content += '<param name="menu" value="false"/><param name="wmode" value="opaque"/>';
+            content += '<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">';
+            content += '<embed src="../../../tplimg/picflash.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ focus_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />';
+            content += '<\/object>';
+            document.getElementById("showArtPicsDiv").innerHTML = content;
+            }
+           }
+           </script>
+<style>
+    body,div{
+        font-family: '宋体';
+    }
+    .main .article-box .article h1,.main .article-box .article h2,.main .article-box .article h3{
+        font-family: Microsoft YaHei,SimSun,sans-serif,'宋体';
+    }
+    .main .right-main .title{
+        font-weight: bold;
+    }
+    .pci_c{margin:10px auto;width:410px}
+    table{
+        border-spacing:0;
+    }
+    table td{
+        text-align: center;
+        border-spacing:0;
+    }
+    .pci_c td img{
+        width: auto;
+    }
+    .top img {
+padding-top: 15px;
+margin-left:0px;
+}
+.nav {
+margin-right:0;
+}
+.pci_c td{
+    width: 100%;
+}
+.pci_c td p{
+    text-align: left;
+    font-size: 14px;
+    width: auto;
+    padding-top:15px;
+    line-height:160%;
+}
+#ozoom p{
+    line-height: 170%;
+    padding: 5px 0;
+}
+.main .article-box .article .sec span{
+    margin-top:10px;
+}
+.main .swiper-box .swiper-container .swiper-slide{
+        text-align: center;
+        background: #d00;
+        color: #fff;
+        width:19.5%;
+        float: left;
+        margin-bottom:1px;
+        margin-right:1px;
+        text-indent: 0;
+        height:34px;
+        line-height:34px;
+    }
+    .main .swiper-box .swiper-container .swiper-slide a{
+        color: #fff;
+    }
+    .curr-news span{
+        display: inline-block;
+        color: #fff;
+        background: #d00;
+        padding:5px 15px;
+        font-size:16px;
+        height:25px;
+        line-height:25px;
+    }
+    .main .right-main .date-box span{
+      cursor: pointer;
+    }
+    .ribao, .zhoubao, .zazhi {
+        background:none;
+        padding: 10px 15px;
+        width: 140px;
+        z-index: 3;
+        position: absolute;
+        top: 60px;
+        left:-30px;
+        display: none;
+    }
+    .ribao li, .zhoubao li, .zazhi li{
+        border:1px solid #e2e2e2;
+        color: #333;
+        padding:3px 10px;
+        border-top:none;
+        width:150px;
+        background: #fff;
+    }
+    .ribao li:nth-child(1),.zhoubao li:nth-child(1),.zazhi li:nth-child(1){
+        border-top:1px solid #e2e2e2;
+    }
+    .nav li{
+        cursor: pointer;
+    }
+    .ribao li a, .zhoubao li a, .zazhi li a{
+        color: #333;
+    }
+    .main .news .news-list li span{
+        font-size:20px;
+        margin-right:5px;
+    }
+    .main .article-box .art-btn span{padding:0 15px;}
+    .main .article-box .art-btn strong{font-weight: normal;float:right;margin-right:15px;}
+    .main .article-box .art-btn strong span{padding:0px;}
+    .main .swiper-box .swiper-container .swiper-slide{
+        font-size:12px;
+        width:24.5%;
+    }
+    /* .main .swiper-box .swiper-container .swiper-slide:nth-child(4){
+        line-height:129%;padding:8px 1% 0 1%;height:36px;width:22.5%
+    } */
+@media (min-device-width: 320px) and (max-width: 689px), (max-device-width: 480px) {
+    body{
+        overflow: auto;
+    }
+  }
+</style>
+</head>
+
+<body onLoad="initialize();initMPPage();showArtPics();">
+    <!--题图-->
+    <div class="top">
+        <div class="w1000">
+            <a href="http://www.people.com.cn" target="_blank"><img class="left" src="../../../tplimg/logo.png" alt=""></a>
+            <ul class="right nav">
+                <li id="ribao">日报
+                    <ul class="ribao" id="ribaobox">
+                        <li><a href='http://paper.people.com.cn/rmrb/paperindex.htm' target='_blank'>人民日报</a></li>
+                        <li><a href="http://paper.people.com.cn/rmrbhwb/paperindex.htm" target="_blank">人民日报海外版</a></li>
+                        <li><a href="http://www.huanqiu.com/" target="_blank">环球时报</a></li>
+                        <li><a href="http://epaper.stcn.com/" target="_blank">证券时报</a></li>
+                    </ul>
+                </li>
+                <li id="zhoubao">周报
+                    <ul class="zhoubao" id="zhoubaobox">
+                        <li><a href="http://paper.people.com.cn/gjjrb/paperindex.htm" target="_blank">国际金融报</a></li>
+                        <li><a href="http://paper.people.com.cn/zgnyb/paperindex.htm" target="_blank">中国能源报</a></li>
+                        <li><a href="http://paper.people.com.cn/jksb/paperindex.htm" target="_blank">健康时报</a></li>
+                        <li><a href="http://paper.people.com.cn/fcyym/paperindex.htm" target="_blank">讽刺与幽默</a></li>
+                        <li><a href="http://paper.people.com.cn/zgcsb/paperindex.htm" target="_blank">中国城市报</a></li>
+                    </ul>
+
+                </li>
+                <li id="zazhi">杂志
+                    <ul class="zazhi" id="zazhibox">
+                        <li><a href="http://paper.people.com.cn/xwzx/paperindex.htm" target="_blank">新闻战线</a></li>
+                        <li><a href="http://paper.people.com.cn/rmlt/paperindex.htm" target="_blank">人民论坛</a></li>
+                        <li><a href="http://paper.people.com.cn/rmzk/paperindex.htm" target="_blank">人民周刊</a></li>
+                        <li><a href="http://paper.people.com.cn/zgjjzk/paperindex.htm" target="_blank">中国经济周刊</a></li>
+                        <li><a href="http://paper.people.com.cn/mszk/paperindex.htm" target="_blank">民生周刊</a></li>
+                        <li><a href="http://history.people.com.cn/GB/198819/index.html" target="_blank">国家人文历史</a></li>
+                        <li><a href="http://paper.people.com.cn/zgby/paperindex.htm" target="_blank">中国报业</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="main w1000">
+        <div class="left paper-box">
+            <div class="paper">
+                <map name=PagePicMap><Area coords="3,24,397,24,397,562,3,562" shape="polygon" href="./nw.D110000renmrb_20220103_1-04.htm"></map><img  width=400 height=575 src=../../../images/2022-01/03/04/rmrb2022010304_b.jpg border=0 USEMAP=#PagePicMap>
+            </div>
+            <div class="paper-bot">
+                <p class="left ban">第04版:要闻</p>
+                <!-- <p class="right btn">PDF下载</p> -->
+            </div>
+            <div class="news">
+                <p class="curr-news"><span>本版新闻</span></p>
+<!--新样式-->
+<ul class='news-list'>
+
+
+<li>
+<span>·</span><a href=./nw.D110000renmrb_20220103_1-04.htm>携手迎冬奥 一起向未来  </a></li>
+
+</ul><!-- list endding -->
+            </div>
+            
+        </div>
+        <div class="right right-main">
+            <p class="title"><a href='http://data.people.com.cn/rmrb/' target='_blank'>人民日报图文数据库（1946-2021）</a></p>
+            <div class="date-box">
+                <p class="date left">
+                    人民日报
+   2022年01月03日 星期一<span><img onClick="autoShowDate();" src="../../../tplimg/down.png" alt=""></span>
+                </p>
+                <p class="right">
+                   
+                </p>
+                        <!-------rqdh版面导航------>
+        <div id=daydh style="display:none; position:absolute; left:140px;top:30px;z-index:1000; filter:alpha(opacity=90);"  onmouseover="document.getElementById('daydh').style.display='block';" >
+            <form name=CLD style="padding:0px;margin:0px;">
+              <table width="210" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#e0e0e0">
+                <tr>
+                  <td bgcolor="#D8EFFF" style="padding: 3px;"><table cellspacing=0 cellpadding=0 width="100%" align=center border=0 bgcolor="#D8EFFF">
+                    <tr>
+                      <td><table width="100%" align=center border="0" cellpadding="1" cellspacing="1">
+                        <tr class="default" align=center>
+                          <td height=15 colspan=7 bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="2" cellspacing="0">
+                            <tr align="center">
+                              <td align="left" nowrap><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,0)" /></td>
+                              <td><select class=jumpmenu onChange=changeMPCld() name=SY>
+                                <script language=JavaScript>
+                          for(i=2006;i<2051;i++)
+                          document.write('<option>'+i+'</option>')
+                          </script>
+                              </select>
+                              </td>
+                              <td><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,1)" /></td>
+                              <td align="center" nowrap><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,0)" /></td>
+                              <td><select class=jumpmenu onChange=changeMPCld() name=SM>
+                                <script language=JavaScript>
+                      <!--
+                          for(i=1;i<13;i++) document.write('<option>'+i+'</option>')
+                      //-->
+                          </script>
+                              </select>
+                              </td>
+                              <td><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,1)" /></td>
+                              <td align="right" nowrap><strong><font id=GZ fface="Arial, Helvetica, sans-serif"></font></strong></td>
+                            </tr>
+                          </table></td>
+                        </tr>
+                        <tr align=middle bgcolor="#FFFFFF" class="default">
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">日</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">一</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">二</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">三</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">四</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">五</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">六</font></b> </td>
+                        </tr>
+                        <script type="text/JavaScript">
+                            var gNum;
+                            for(i=0;i<6;i++)
+                            {
+                                document.write('<tr align=center>');
+                                for(j=0;j<7;j++)
+                                {
+                                    gNum = i*7+j;
+                                    document.write('<td  bgcolor="#FFFFFF" class="default" align=center id="GD' + gNum +'" style="cursor: default;" width="14%"><a href="" id="CD' + gNum + '"><span class="date" style="font-family:Verdana, Arial;font-size:11px;"><font _onMouseOver="mOvr(' + gNum +')" onMouseOut="mOut()" id="SD' + gNum +'"');
+                                    document.write('></font></span></a><br><font id="LD' + gNum + '" size=2 class=pt9 style=display:none></font></td>');
+                                }
+                                document.write('</tr>');
+                            }
+                  </script>
+                      </table></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr><td align="center" height="22"><a href="#" onClick="autoShowDate();">关闭</a></td></tr>
+              </table>
+            </form>
+          </div>
+          <!-------rqdh版面导航END------>
+            </div>
+            <div class="swiper-box">
+                <div class="swiper-container">
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_01.htm>01版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_02.htm>02版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_03.htm>03版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_04.htm>04版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_05.htm>05版：视觉</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_06.htm>06版：假日生活</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_07.htm>07版：假日生活</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_08.htm>08版：副刊</a>
+</div>
+</ul><!-- list endding -->
+                    
+                </div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+            </div>
+            <div class="article-box">
+                <div class="art-btn">
+                          <span><a href=nbs.D110000renmrb_04.htm>返回目录</a></span>&nbsp;&nbsp;<a href="#" onclick="zoomIn();"><span class="big">放大</span><a href="#" onclick="zoomOut();"><span class="small">缩小</span></a><a href="#" onclick="CopyAll();"><span>全文复制</span></a>&nbsp;&nbsp;&nbsp;<strong></strong>
+                    <div style="display:none" id="articleContent">
+                        
+                            <!--enpcontent--><P>　　再过一个多月，北京冬奥会、冬残奥会就要开幕了。习近平主席发表二〇二二年新年贺词指出：我们将竭诚为世界奉献一届奥运盛会。</P><P>　　北京冬奥组委里，杨扬忙忙碌碌、竭尽全力，只为留下让人终生难忘的冬奥记忆；训练场上，隋文静、韩聪正在进行最后的冲刺训练，打磨技术、调整状态，一步步向梦想靠近；园区内，赵丹带领青年志愿者团队实地演练，不断优化服务保障方案……</P><P>　　让更多人参与到冰雪运动中来，是奥林匹克运动的题中之义。冬奥的荣耀，属于我们每一个人。从轧钢工转型制冰师，刘博强秉持工匠精神，用精湛的技术为运动员制好冰、护好航；从小生活在广东的曾国英，从一个“几乎没见过雪”的南方女孩成长为一名滑雪教练员；北京小伙张海超，依托冬奥资源返乡创业，开办民宿……他们的背后，是冰雪运动的全面铺开、冰雪产业的蓬勃发展。</P><P>　　“世界期待中国，中国做好了准备。”冬日热土上，活力中国欣欣向荣。携手迎冬奥，让我们一起向未来！</P><P>　　——编&nbsp;&nbsp;者&nbsp;&nbsp;</P><P>　　</P><P>　　北京冬奥组委运动员委员会主席杨扬——</P><P>　　细心保障&nbsp;竭诚服务</P><P>　　北京冬奥会、冬残奥会筹备进入最后冲刺阶段，杨扬每天的日程安排得满满当当。“我们将为运动员创造最佳比赛环境，希望他们度过愉快的时光。”杨扬明亮的眼神中满是期待。</P><P>　　曾经是运动员，所以最懂运动员的需求。2002年盐湖城冬奥会，杨扬接连夺得短道速滑女子500米和1000米两项冠军，实现中国冬奥金牌“零的突破”。</P><P>　　走下赛场的杨扬，坚持“发出来自中国运动员的声音”。担任国际奥委会委员的8年时间里，她始终将运动员的权益放在心上。</P><P>　　北京申冬奥成功后，杨扬担任北京冬奥组委运动员委员会主席。“我们从个人经历和感受出发，为冬奥筹备建言献策，坚持以运动员为中心，让运动员的需求和权益得到充分保障。”大到京张高铁、冬奥村、比赛场馆等的设计，小到运动员菜单提供无麸质食品、花滑赛场准备针线包……运动员委员会提出的建议包括方方面面。</P><P>　　亲身经历申办和筹备全过程，杨扬感触最深的是近年来冰雪项目的蓬勃发展。2015年申冬奥成功时，我国还有约1/3的奥运冰雪项目没有开展。如今，中国冰雪运动员们正在向全项目参赛的目标冲刺。</P><P>　　“竞技体育方面，我们通过跨界跨项选才等方式，培养出更多冰雪运动人才；群众体育方面，越来越多的人上冰逐雪，享受冰雪运动的快乐。‘带动三亿人参与冰雪运动’的愿景一步步实现。”作为冰雪人，这些变化令她无比骄傲。</P><P>　　“一起向未来”，是北京冬奥会、冬残奥会的主题口号，也是全世界的共同心声。世界期待中国，中国做好了准备，将竭诚为世界奉献一届奥运盛会。</P><P>　　冬奥时刻即将来临，杨扬向全世界的运动员发出热情邀请。“让我们相约北京，再一次用奥运激情点燃全世界。通过高水平的竞技比赛，让冰雪运动的魅力感染和鼓舞人，吸引更多人参与并热爱冰雪运动。”杨扬真挚地说，“我们将竭尽全力，用专业的工作和细心的服务，为运动员留下一生难忘的冬奥记忆。”</P><P>　　（本报记者李硕采访整理）&nbsp;</P><P>　　</P><P>　　花样滑冰运动员隋文静、韩聪——</P><P>　　心无旁骛&nbsp;全力以赴</P><P>　　时间迈入2022年，对于隋文静、韩聪来说，梦想的舞台近在咫尺。在家门口参加冬奥会，他们充满期待、倍感自豪，“希望在北京冬奥会开启职业生涯新篇章！”</P><P>　　作为中国花样滑冰队的领军人物，隋文静、韩聪征战赛场多年，走过平淡无奇的训练岁月，也经历过满身伤病的失意时光。“为国而战”“期待国歌奏响”，梦想始终深埋于心，激励他们不断挑战和超越自我。</P><P>　　4年前的平昌冬奥会后，隋文静因右脚疲劳性骨折进行了手术，错过大半个赛季。韩聪则在2020年4月接受了髋关节手术。但两人的心态始终积极向上，“经过历练才能成长。”隋文静说。</P><P>　　冰场上每一个高光时刻，都源自奋斗与坚持。突破难度、提升艺术表现力、增加表演稳定性……他们一步一个脚印，踏实训练，不断在冰场上证明自己。</P><P>　　受疫情影响，中国花样滑冰队缺席了上赛季大部分国际滑联花样滑冰赛事，2021年10月在首都体育馆举行的亚洲花样滑冰公开赛成为两人的赛季首秀。阔别赛场已久，他们在一次次出场中迅速找回状态。在国际滑联花样滑冰大奖赛加拿大站和意大利站比赛中，两人又接连夺冠。</P><P>　　“1个月，3场比赛，滑6套节目，倒好几次时差，我们经受住了考验。”隋文静说。如今，他们即将踏上第二次冬奥会之旅，“目标始终不变，就是在冬奥赛场展现最好的自己。”</P><P>　　主场作战，要不断打磨技术、精益求精，更要调整好状态。“冲刺阶段，就跟着教练团队不断去练习和推进备战计划。”他们说，国家的大力支持，教练团队的精心呵护，让他们可以心无旁骛地投入备战中，“全力以赴，做好自己，一步步向梦想靠近。”</P><P>　　（本报记者季芳采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　双奥志愿者、北京邮电大学教师赵丹——</P><P>　　热情饱满&nbsp;专业规范</P><P>　　赵丹是北京冬奥会和冬残奥会北京奥林匹克公园公共区志愿者经理，曾服务于北京2008年奥运会和残奥会。从2008年到2022年，她亲历了中国志愿服务事业的发展进步，看到越来越多的青年人投身志愿服务工作，用热血奉献青春力量。</P><P>　　2021年4月，“相约北京”冰上项目测试活动举行。在这次冬奥“模拟考”中，赵丹带领20名志愿者服务于8个业务领域，以专业规范的服务和热情饱满的精神状态圆满完成各项任务。</P><P>　　奥林匹克公园公共区服务区域位于户外，服务范围广、时间长、任务重。为在寒冷的天气里尽量减少志愿者在路途上的体力消耗，赵丹和志愿者团队利用午休时间实地调研和踏勘，制定最优上岗路线和最佳排班计划，确保志愿服务工作高效开展。“年轻人不怕吃苦，富有创造性，是服务冬奥的重要力量。”赵丹说。</P><P>　　在供志愿者休息的志愿者之家，赵丹和伙伴们精心设计展板、布置活动空间，编写学习手册和志愿者工作日报，还通过多种形式的主题活动丰富志愿生活、增强团队凝聚力。“我们利用有限空间创造无限可能，让志愿者之家成为学习园地和心灵家园。”她说。</P><P>　　赵丹清楚地记得，北京2008年残奥会的最后一天，她和并肩作战的志愿者们久久不愿离去，在国家体育场前留下了一张合影，定格青春的笑容。2021年4月的测试活动开始前，她再次带着志愿者们来到“鸟巢”前拍下同样的照片，希望把奥运精神和志愿精神传承下去。</P><P>　　对即将到来的北京冬奥会和冬残奥会，赵丹满怀期待：“用心、用情当好耕耘者，用爱、用行种好责任田，以‘时不我待、只争朝夕’的精神全力以赴做好志愿服务工作，向世界展示中国志愿者的青春风采。”</P><P>　　（本报记者孙龙飞采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　北京首钢园区制冰师刘博强——</P><P>　　苦练本领&nbsp;贡献力量</P><P>　　从轧钢工到制冰师，42岁的刘博强完成了一次“从火到冰”的跨界转型。扎根首钢20多年，工匠人、工匠心、工匠精神，在冰与火的淬炼中，更加闪耀动人。</P><P>　　2010年首钢园区全面停产。此后，北京冬奥组委进驻、国家冬季运动训练中心投入运行……老厂区的精煤车间、运煤车间陆续被改造为花样滑冰、短道速滑、冰壶和冰球场馆。有过迷茫、有过困惑，但刘博强一直积极适应转型。2017年7月，他报名首钢组织的制冰技术培训，与12名转岗职工一起，在首都体育馆参加了为期3个月的学习。</P><P>　　“办好北京冬奥会和冬残奥会，是我们国家的一件大事，能为冬奥贡献力量是我的梦想。”刘博强说。要想实现梦想，唯有苦练本领。培训期间，每天十几个小时，刘博强练得非常认真，到了周末，他也经常放弃休息主动加练。为了更方便地向国外制冰师学习，他还苦学英语。功夫不负有心人，刘博强的专业能力进步飞快，得到国际顶级制冰师的认可和点赞。如今他正带领制冰师队伍，为国家冰壶队备战冬奥提供制冰、扫冰以及冰场维护等保障服务。</P><P>　　制冰之外，刘博强的人生还有更大的收获。2021年9月24日，刘博强光荣地加入了中国共产党。“服务冬奥改变了我的人生轨迹。作为新时代的产业工人，我从未如此真切地感受到，自己和国家发展、国家大事之间有着这样紧密的联系。”他说，自己将以更加饱满的热情和积极主动的态度投入工作，为运动员们制好冰，护好航，“不断锤炼自己，丰富各项技能，贡献自己的光和热。”</P><P>　　（本报记者王亮采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　广州市青年滑雪教练员曾国英——</P><P>　　上冰逐雪&nbsp;尽享欢乐</P><P>　　从小生活在广东省云浮市的曾国英，几年前来到广州融创雪世界做接待服务工作，那时的她，没想到自己会成为一名滑雪教练员。</P><P>　　“小时候几乎没见过雪，更别说滑过雪了。一开始是好奇，想培养个兴趣爱好，工作之余，每周大概会去雪场滑两天。”刚开始学习滑雪时会经常摔倒，膝盖瘀青，但曾国英仍然坚持练习。大半年后，部门有教练组的申请名额，曾国英积极申请，通过努力训练，她成功考取教练证，开始了滑雪教练的职业生涯。</P><P>　　热身、介绍器具、平地练习、减速控速、稳定方向……曾国英对每名学员都耐心教授要点，仔细指导动作，“入门以后，大部分学员会更有兴趣，不断练习、不断精进技术。”</P><P>　　周末、寒暑假是曾国英最忙碌的时候，学员多的时候，曾国英一天要在雪场待8到9个小时，连饭都来不及吃。等到下班出雪场，她的手脚都快冻僵了，“累并快乐着，滑雪是自己喜欢的项目，而且收入也比原来增加了不少。”</P><P>　　“比较起来，学单板的学员更多一些，因为看起来更酷炫。”曾国英的学员，从4岁的孩童到年近60岁的大叔都有，“年轻人更多一些。总体上，广州本地的学员居多，也有从外地专程跑来学习的。”</P><P>　　“以前很多人会觉得滑雪离自己很遥远，但最近几年这项运动更加大众化。尤其是随着北京冬奥的临近，冰雪运动越来越火热。”曾国英说，北京冬奥让更多的人关注并喜爱冰雪运动，越来越多的冰雪设施也方便了冰雪运动的普及。如今，很多南方城市都兴办了冰雪运动场馆。南方的朋友不用专门到北方，在自家门口就能享受到冰雪运动的乐趣，十分方便。“冰雪运动充满激情活力，希望大家都能参与其中。”曾国英说。</P><P>　　（本报记者姜晓丹采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　北京延庆民宿经营者张海超——</P><P>　　冰雪经济&nbsp;暖意融融</P><P>　　冬日的北京碧空如洗，冬奥会延庆赛区所在地小海陀山一派银装素裹的景象。山脚下，张山营镇后黑龙庙村，昔日静谧的小山村因冬奥变得热闹起来。</P><P>　　“如果没有冬奥机遇，市场不会这么火。”张海超是当地精品民宿的经营者，土生土长的张山营人。2016年3月，在北京城区做生意的他，得知家乡张山营将规划打造“冬奥冰雪休闲小镇”，决定抓住机遇返乡创业。</P><P>　　“附近的滑雪场，是延庆最大的专业滑雪基地。冬奥来了，滑雪的人就更多了，住宿方面肯定有需求。”张海超带领团队，将村里的老旧房屋翻新重建，打造了19个小院，每一个院落基本都围绕冬奥元素进行设计装修。</P><P>　　“冬季客人中约50%是来玩冰雪的，到周末一房难求。”张海超说。2016年至今，仅张山营镇的高端民宿小院就从零发展到64个。近年来，延庆冰雪产业发展暖意融融，北京冬奥申办成功以来，延庆共接待冰雪旅游和冰雪运动游客1175.31万人次，冰雪体育旅游收入8.23亿元。</P><P>　　到2024年底，延庆将打造成为国际滑雪度假旅游胜地，实现可滑面积100万平方米，滑雪旅游人次突破50万。“欢迎世界各地的朋友来这里感受我们的美好生活！”张海超说。</P><P>　　（本报记者贺勇采访整理）&nbsp;</P><P>　　</P><P>　　本版策划：王&nbsp;&nbsp;军&nbsp;&nbsp;殷新宇&nbsp;&nbsp;吴&nbsp;&nbsp;燕</P><P>　　版式设计：李&nbsp;&nbsp;艳&nbsp;&nbsp;顾煊培</P><P>　　（人民日报媒体技术公司）&nbsp;&nbsp;</P><P>　　融媒创作：徐&nbsp;&nbsp;丹&nbsp;&nbsp;刘&nbsp;&nbsp;畅</P><!--/enpcontent-->
+                            
+                    </div>
+                </div>
+                <div class="article">
+                            
+<h3></h3>
+<h1>携手迎冬奥 一起向未来</h1>
+<h2></h2>
+
+                    <p class="sec">
+                        <!-- <span class="origin">人民日报</span>
+                        <span class="date">(2020年02月06日 01版)</span> -->
+                        
+                        <span class="date">《
+          人民日报
+          》（
+          2022年01月03日
+&nbsp;
+          第&nbsp;04
+          版）</span>
+                    </p>
+                    <div align="center" style="padding:10px 0 15px 0">
+        		
+               </div>
+    
+                                   <TABLE class="pci_c" width="400"><TBODY><TR><TD align="center"><IMG src="../../../images/2022-01/03/04/rmrb2022010304p26_b.jpg"></TD></TR> <TR><TD><p></p></TD></TR></TBODY></TABLE>
+             <DIV id=ozoom style="zoom:100%;">
+               <div id="showArtPicsDiv" align="center"></div>
+               <script language=javascript>
+                               /*	if(picResCount>0){
+                                       document.getElementById("picres").style.display="block";
+                                       document.write("<br />");
+                                   }*/
+                                  </script>
+                
+               <!--enpcontent--><P>　　再过一个多月，北京冬奥会、冬残奥会就要开幕了。习近平主席发表二〇二二年新年贺词指出：我们将竭诚为世界奉献一届奥运盛会。</P><P>　　北京冬奥组委里，杨扬忙忙碌碌、竭尽全力，只为留下让人终生难忘的冬奥记忆；训练场上，隋文静、韩聪正在进行最后的冲刺训练，打磨技术、调整状态，一步步向梦想靠近；园区内，赵丹带领青年志愿者团队实地演练，不断优化服务保障方案……</P><P>　　让更多人参与到冰雪运动中来，是奥林匹克运动的题中之义。冬奥的荣耀，属于我们每一个人。从轧钢工转型制冰师，刘博强秉持工匠精神，用精湛的技术为运动员制好冰、护好航；从小生活在广东的曾国英，从一个“几乎没见过雪”的南方女孩成长为一名滑雪教练员；北京小伙张海超，依托冬奥资源返乡创业，开办民宿……他们的背后，是冰雪运动的全面铺开、冰雪产业的蓬勃发展。</P><P>　　“世界期待中国，中国做好了准备。”冬日热土上，活力中国欣欣向荣。携手迎冬奥，让我们一起向未来！</P><P>　　——编&nbsp;&nbsp;者&nbsp;&nbsp;</P><P>　　</P><P>　　北京冬奥组委运动员委员会主席杨扬——</P><P>　　细心保障&nbsp;竭诚服务</P><P>　　北京冬奥会、冬残奥会筹备进入最后冲刺阶段，杨扬每天的日程安排得满满当当。“我们将为运动员创造最佳比赛环境，希望他们度过愉快的时光。”杨扬明亮的眼神中满是期待。</P><P>　　曾经是运动员，所以最懂运动员的需求。2002年盐湖城冬奥会，杨扬接连夺得短道速滑女子500米和1000米两项冠军，实现中国冬奥金牌“零的突破”。</P><P>　　走下赛场的杨扬，坚持“发出来自中国运动员的声音”。担任国际奥委会委员的8年时间里，她始终将运动员的权益放在心上。</P><P>　　北京申冬奥成功后，杨扬担任北京冬奥组委运动员委员会主席。“我们从个人经历和感受出发，为冬奥筹备建言献策，坚持以运动员为中心，让运动员的需求和权益得到充分保障。”大到京张高铁、冬奥村、比赛场馆等的设计，小到运动员菜单提供无麸质食品、花滑赛场准备针线包……运动员委员会提出的建议包括方方面面。</P><P>　　亲身经历申办和筹备全过程，杨扬感触最深的是近年来冰雪项目的蓬勃发展。2015年申冬奥成功时，我国还有约1/3的奥运冰雪项目没有开展。如今，中国冰雪运动员们正在向全项目参赛的目标冲刺。</P><P>　　“竞技体育方面，我们通过跨界跨项选才等方式，培养出更多冰雪运动人才；群众体育方面，越来越多的人上冰逐雪，享受冰雪运动的快乐。‘带动三亿人参与冰雪运动’的愿景一步步实现。”作为冰雪人，这些变化令她无比骄傲。</P><P>　　“一起向未来”，是北京冬奥会、冬残奥会的主题口号，也是全世界的共同心声。世界期待中国，中国做好了准备，将竭诚为世界奉献一届奥运盛会。</P><P>　　冬奥时刻即将来临，杨扬向全世界的运动员发出热情邀请。“让我们相约北京，再一次用奥运激情点燃全世界。通过高水平的竞技比赛，让冰雪运动的魅力感染和鼓舞人，吸引更多人参与并热爱冰雪运动。”杨扬真挚地说，“我们将竭尽全力，用专业的工作和细心的服务，为运动员留下一生难忘的冬奥记忆。”</P><P>　　（本报记者李硕采访整理）&nbsp;</P><P>　　</P><P>　　花样滑冰运动员隋文静、韩聪——</P><P>　　心无旁骛&nbsp;全力以赴</P><P>　　时间迈入2022年，对于隋文静、韩聪来说，梦想的舞台近在咫尺。在家门口参加冬奥会，他们充满期待、倍感自豪，“希望在北京冬奥会开启职业生涯新篇章！”</P><P>　　作为中国花样滑冰队的领军人物，隋文静、韩聪征战赛场多年，走过平淡无奇的训练岁月，也经历过满身伤病的失意时光。“为国而战”“期待国歌奏响”，梦想始终深埋于心，激励他们不断挑战和超越自我。</P><P>　　4年前的平昌冬奥会后，隋文静因右脚疲劳性骨折进行了手术，错过大半个赛季。韩聪则在2020年4月接受了髋关节手术。但两人的心态始终积极向上，“经过历练才能成长。”隋文静说。</P><P>　　冰场上每一个高光时刻，都源自奋斗与坚持。突破难度、提升艺术表现力、增加表演稳定性……他们一步一个脚印，踏实训练，不断在冰场上证明自己。</P><P>　　受疫情影响，中国花样滑冰队缺席了上赛季大部分国际滑联花样滑冰赛事，2021年10月在首都体育馆举行的亚洲花样滑冰公开赛成为两人的赛季首秀。阔别赛场已久，他们在一次次出场中迅速找回状态。在国际滑联花样滑冰大奖赛加拿大站和意大利站比赛中，两人又接连夺冠。</P><P>　　“1个月，3场比赛，滑6套节目，倒好几次时差，我们经受住了考验。”隋文静说。如今，他们即将踏上第二次冬奥会之旅，“目标始终不变，就是在冬奥赛场展现最好的自己。”</P><P>　　主场作战，要不断打磨技术、精益求精，更要调整好状态。“冲刺阶段，就跟着教练团队不断去练习和推进备战计划。”他们说，国家的大力支持，教练团队的精心呵护，让他们可以心无旁骛地投入备战中，“全力以赴，做好自己，一步步向梦想靠近。”</P><P>　　（本报记者季芳采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　双奥志愿者、北京邮电大学教师赵丹——</P><P>　　热情饱满&nbsp;专业规范</P><P>　　赵丹是北京冬奥会和冬残奥会北京奥林匹克公园公共区志愿者经理，曾服务于北京2008年奥运会和残奥会。从2008年到2022年，她亲历了中国志愿服务事业的发展进步，看到越来越多的青年人投身志愿服务工作，用热血奉献青春力量。</P><P>　　2021年4月，“相约北京”冰上项目测试活动举行。在这次冬奥“模拟考”中，赵丹带领20名志愿者服务于8个业务领域，以专业规范的服务和热情饱满的精神状态圆满完成各项任务。</P><P>　　奥林匹克公园公共区服务区域位于户外，服务范围广、时间长、任务重。为在寒冷的天气里尽量减少志愿者在路途上的体力消耗，赵丹和志愿者团队利用午休时间实地调研和踏勘，制定最优上岗路线和最佳排班计划，确保志愿服务工作高效开展。“年轻人不怕吃苦，富有创造性，是服务冬奥的重要力量。”赵丹说。</P><P>　　在供志愿者休息的志愿者之家，赵丹和伙伴们精心设计展板、布置活动空间，编写学习手册和志愿者工作日报，还通过多种形式的主题活动丰富志愿生活、增强团队凝聚力。“我们利用有限空间创造无限可能，让志愿者之家成为学习园地和心灵家园。”她说。</P><P>　　赵丹清楚地记得，北京2008年残奥会的最后一天，她和并肩作战的志愿者们久久不愿离去，在国家体育场前留下了一张合影，定格青春的笑容。2021年4月的测试活动开始前，她再次带着志愿者们来到“鸟巢”前拍下同样的照片，希望把奥运精神和志愿精神传承下去。</P><P>　　对即将到来的北京冬奥会和冬残奥会，赵丹满怀期待：“用心、用情当好耕耘者，用爱、用行种好责任田，以‘时不我待、只争朝夕’的精神全力以赴做好志愿服务工作，向世界展示中国志愿者的青春风采。”</P><P>　　（本报记者孙龙飞采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　北京首钢园区制冰师刘博强——</P><P>　　苦练本领&nbsp;贡献力量</P><P>　　从轧钢工到制冰师，42岁的刘博强完成了一次“从火到冰”的跨界转型。扎根首钢20多年，工匠人、工匠心、工匠精神，在冰与火的淬炼中，更加闪耀动人。</P><P>　　2010年首钢园区全面停产。此后，北京冬奥组委进驻、国家冬季运动训练中心投入运行……老厂区的精煤车间、运煤车间陆续被改造为花样滑冰、短道速滑、冰壶和冰球场馆。有过迷茫、有过困惑，但刘博强一直积极适应转型。2017年7月，他报名首钢组织的制冰技术培训，与12名转岗职工一起，在首都体育馆参加了为期3个月的学习。</P><P>　　“办好北京冬奥会和冬残奥会，是我们国家的一件大事，能为冬奥贡献力量是我的梦想。”刘博强说。要想实现梦想，唯有苦练本领。培训期间，每天十几个小时，刘博强练得非常认真，到了周末，他也经常放弃休息主动加练。为了更方便地向国外制冰师学习，他还苦学英语。功夫不负有心人，刘博强的专业能力进步飞快，得到国际顶级制冰师的认可和点赞。如今他正带领制冰师队伍，为国家冰壶队备战冬奥提供制冰、扫冰以及冰场维护等保障服务。</P><P>　　制冰之外，刘博强的人生还有更大的收获。2021年9月24日，刘博强光荣地加入了中国共产党。“服务冬奥改变了我的人生轨迹。作为新时代的产业工人，我从未如此真切地感受到，自己和国家发展、国家大事之间有着这样紧密的联系。”他说，自己将以更加饱满的热情和积极主动的态度投入工作，为运动员们制好冰，护好航，“不断锤炼自己，丰富各项技能，贡献自己的光和热。”</P><P>　　（本报记者王亮采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　广州市青年滑雪教练员曾国英——</P><P>　　上冰逐雪&nbsp;尽享欢乐</P><P>　　从小生活在广东省云浮市的曾国英，几年前来到广州融创雪世界做接待服务工作，那时的她，没想到自己会成为一名滑雪教练员。</P><P>　　“小时候几乎没见过雪，更别说滑过雪了。一开始是好奇，想培养个兴趣爱好，工作之余，每周大概会去雪场滑两天。”刚开始学习滑雪时会经常摔倒，膝盖瘀青，但曾国英仍然坚持练习。大半年后，部门有教练组的申请名额，曾国英积极申请，通过努力训练，她成功考取教练证，开始了滑雪教练的职业生涯。</P><P>　　热身、介绍器具、平地练习、减速控速、稳定方向……曾国英对每名学员都耐心教授要点，仔细指导动作，“入门以后，大部分学员会更有兴趣，不断练习、不断精进技术。”</P><P>　　周末、寒暑假是曾国英最忙碌的时候，学员多的时候，曾国英一天要在雪场待8到9个小时，连饭都来不及吃。等到下班出雪场，她的手脚都快冻僵了，“累并快乐着，滑雪是自己喜欢的项目，而且收入也比原来增加了不少。”</P><P>　　“比较起来，学单板的学员更多一些，因为看起来更酷炫。”曾国英的学员，从4岁的孩童到年近60岁的大叔都有，“年轻人更多一些。总体上，广州本地的学员居多，也有从外地专程跑来学习的。”</P><P>　　“以前很多人会觉得滑雪离自己很遥远，但最近几年这项运动更加大众化。尤其是随着北京冬奥的临近，冰雪运动越来越火热。”曾国英说，北京冬奥让更多的人关注并喜爱冰雪运动，越来越多的冰雪设施也方便了冰雪运动的普及。如今，很多南方城市都兴办了冰雪运动场馆。南方的朋友不用专门到北方，在自家门口就能享受到冰雪运动的乐趣，十分方便。“冰雪运动充满激情活力，希望大家都能参与其中。”曾国英说。</P><P>　　（本报记者姜晓丹采访整理）&nbsp;&nbsp;</P><P>　　</P><P>　　北京延庆民宿经营者张海超——</P><P>　　冰雪经济&nbsp;暖意融融</P><P>　　冬日的北京碧空如洗，冬奥会延庆赛区所在地小海陀山一派银装素裹的景象。山脚下，张山营镇后黑龙庙村，昔日静谧的小山村因冬奥变得热闹起来。</P><P>　　“如果没有冬奥机遇，市场不会这么火。”张海超是当地精品民宿的经营者，土生土长的张山营人。2016年3月，在北京城区做生意的他，得知家乡张山营将规划打造“冬奥冰雪休闲小镇”，决定抓住机遇返乡创业。</P><P>　　“附近的滑雪场，是延庆最大的专业滑雪基地。冬奥来了，滑雪的人就更多了，住宿方面肯定有需求。”张海超带领团队，将村里的老旧房屋翻新重建，打造了19个小院，每一个院落基本都围绕冬奥元素进行设计装修。</P><P>　　“冬季客人中约50%是来玩冰雪的，到周末一房难求。”张海超说。2016年至今，仅张山营镇的高端民宿小院就从零发展到64个。近年来，延庆冰雪产业发展暖意融融，北京冬奥申办成功以来，延庆共接待冰雪旅游和冰雪运动游客1175.31万人次，冰雪体育旅游收入8.23亿元。</P><P>　　到2024年底，延庆将打造成为国际滑雪度假旅游胜地，实现可滑面积100万平方米，滑雪旅游人次突破50万。“欢迎世界各地的朋友来这里感受我们的美好生活！”张海超说。</P><P>　　（本报记者贺勇采访整理）&nbsp;</P><P>　　</P><P>　　本版策划：王&nbsp;&nbsp;军&nbsp;&nbsp;殷新宇&nbsp;&nbsp;吴&nbsp;&nbsp;燕</P><P>　　版式设计：李&nbsp;&nbsp;艳&nbsp;&nbsp;顾煊培</P><P>　　（人民日报媒体技术公司）&nbsp;&nbsp;</P><P>　　融媒创作：徐&nbsp;&nbsp;丹&nbsp;&nbsp;刘&nbsp;&nbsp;畅</P><!--/enpcontent-->
+   <INPUT type=checkbox value=0 name=titlecheckbox sourceid="<Source>SourcePh</Source>" style="display:none">
+                          
+                               
+                  
+             </DIV>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="w1000">
+            <p class="copy-cont">版权声明</p>
+            <p class="copy-text" style="text-indent: 2em;">《人民日报》（电子版）的一切内容(包括但不限于文字、图片、PDF、图表、标志、标识、商标、版面设计、专栏目录与名称、内容分类标准以及为读者提供的任何信息)仅供人民网读者阅读、学习研究使用，未经人民网股份有限公司及/或相关权利人书面授权，任何单位及个人不得将《人民日报》（电子版）所登载、发布的内容用于商业性目的，包括但不限于转载、复制、发行、制作光盘、数据库、触摸展示等行为方式，或将之在非本站所属的服务器上作镜像。否则，人民网股份有限公司将采取包括但不限于网上公示、向有关部门举报、诉讼等一切合法手段，追究侵权者的法律责任。</p>
+            <div class="bottom-box">
+                <div class="left tele">
+                    <p class="p1">人民日报手机报</p>
+                    <p class="p2">移动用户 发送<span class="red">RMRB</span>到<span class="red">10658000</span></p>
+                    <p class="p3">联通用户 发送<span class="red">RMRB</span>到<span class="red">10655111</span></p>
+                </div>
+                <ul class="right code">
+                    <li><img src="../../../tplimg/ios.png" alt=""><p>ios版</p></li>
+                    <li><img src="../../../tplimg/android.png" alt=""><p>android版</p></li>
+                    <li><img src="../../../tplimg/mini.png" alt=""><p>微信小程序</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" clearfix w1000">
+            <div class="copyright">
+                人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>
+                Copyright &copy; 1997-2020 by www.people.com.cn all rights reserved
+            </div>
+        </div>
+    </div>
+    <div class="go-top" id="go-top">
+        <img src="../../../tplimg/go_top.png" alt="">
+    </div>
+    <script language=JavaScript>
+        document.write("<div id=detail style=position:absolute;width:300px;></div>");
+    </script>
+    <SCRIPT language=Javascript src="../../../tplimg/disname2.js"></SCRIPT>
+    <script>
+        // var swiperBox = document.getElementById('swiperBox').getElementsByTagName('div');
+        
+        // if(swiperBox.length <= 4){
+        //     var mySwiper = new Swiper('.swiper-container', {
+        //     slidesPerView:swiperBox.length,
+        //     slidesPerColumnFill : 'row',
+        //     spaceBetween : 3,
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+            
+        //   })
+        // }else{
+        //     var mySwiper = new Swiper('.swiper-container', {
+        //     slidesPerView:4,
+        //     slidesPerColumnFill : 'row',
+        //     spaceBetween : 3,
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+        //   })
+        // }
+
+        
+        ;(function(){
+          var _global;
+          let duration = 500;//时间参数
+          var plugin = {
+              tipNav:function(tipmain,tipsub){
+                tipmain.addEventListener('mouseover',function(){
+                    tipsub.style.display = 'block'
+                },false);
+                tipmain.addEventListener('mouseout',function(){
+                    tipsub.style.display = 'none'
+                },false);
+              },
+              replayTop:function(tipmain){
+                    tipmain.addEventListener('click',function(){
+                        let topSzie = document.documentElement.scrollTop;
+                        let s = topSzie / 600 * 25;  //路程/时间=s *25每隔25ms秒 动的路程
+                        let st = setInterval(function () {
+                            topSzie -= s;
+                            if (topSzie <= 0) {
+                                topSzie = 0; //当l<=0时，设置l=0
+                                clearInterval(st);
+                            }
+                            document.documentElement.scrollTop = topSzie;
+                        }, 25)
+                    },false);
+
+              }
+          }
+          //赋值全局
+          _global = (function(){ return this || (0, eval)('this'); }());
+         !('plugin' in _global) && (_global.plugin = plugin);
+
+        })(window)
+
+
+            var ribaoButton = document.getElementById('ribao');
+            var ribaoBox = document.getElementById('ribaobox');
+            var zhoubaoButton = document.getElementById('zhoubao');
+            var zhoubaoBox = document.getElementById('zhoubaobox');
+            var zazhiButton = document.getElementById('zazhi');
+            var zaizhiBox = document.getElementById('zazhibox');
+            var goTop = document.getElementById('go-top');
+
+            plugin.tipNav(ribaoButton,ribaoBox);
+            plugin.tipNav(zhoubaoButton,zhoubaoBox);
+            plugin.tipNav(zazhiButton,zaizhiBox);
+            plugin.replayTop(goTop);
+
+        
+    </script>
+    <script src="http://www.people.com.cn/img/2020test/paperobject.js" type="text/javascript"></script>
+    <SCRIPT language=Javascript src="../../../tplimg/webdig_test.js"></SCRIPT>
+
+
+
+</body>
+
+</html>
+
+<!--mpproperty <founder-date>
+2022-01-03
+</founder-date>
+<founder-author>
+
+</founder-author>
+<founder-title>携手迎冬奥 一起向未来
+</founder-title>
+<founder-nodename></founder-nodename>
+<founder-keyword>
+
+</founder-keyword><founder-ChannelID>
+1,921
+</founder-ChannelID><founder-imp>0</founder-imp>
+<founder-subtitle></founder-subtitle>
+<founder-type>1</founder-type>
+<founder-introtitle></founder-introtitle>
+<founder-pagepicurl>http://paper.paper.com.cn/rmrb/images/2022-01/03/04/rmrb2022010304_b.jpg</founder-pagepicurl>
+<founder-pagenum>04</founder-pagenum>
+<founder-papername>人民日报</founder-papername>
+<founder-nodeid>1,925</founder-nodeid> /mpproperty-->
+
+

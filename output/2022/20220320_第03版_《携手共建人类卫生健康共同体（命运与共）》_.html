@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Language" content="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>携手共建人类卫生健康共同体（命运与共）</title>
+    <meta name="robots" content="all" />
+    <meta name="author" content='第003版' />
+    <meta name="copyright" content="" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <META name='filetype' content='1'>
+    <meta name='publishedtype' content='1'>
+    <meta name='pagetype' content='1'>
+    <meta name='catalogs' content='rmrbdzb'>
+    <meta name='contentid' content='rmrbdzb_xxxxxxxx'>
+    <meta name='publishdate' content='2013-07-17'>
+    <!--优先使用 IE 最新版本和 Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <!--360 使用Google Chrome Frame-->
+    <meta name="renderer" content="webkit">
+    <link href="../../../tplimg/default.css" rel="stylesheet">
+    <SCRIPT language=Javascript src="../../../tplimg/prototype.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/mp.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/calendar2.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/new.js"></SCRIPT>
+    <SCRIPT language=Javascript src="../../../tplimg/range.js"></SCRIPT>
+    <script type="text/javascript" src="../../../tplimg/app.js"></script>
+    <script src="../../../tplimg/swiper.min.js"></script>
+    <link href="../../../tplimg/swiper.min.css" rel="stylesheet">
+    <script type="text/javascript">
+        function nTabs(tabObj,obj){
+            var tabList = document.getElementById(tabObj).getElementsByTagName("li");
+            for(i=0; i <tabList.length; i++)
+            {
+                if (tabList[i].id == obj.id)
+                {
+                    document.getElementById(tabObj+"_Title"+i).className = "active";
+                    document.getElementById(tabObj+"_Content"+i).style.display = "block";
+                }else{
+                    document.getElementById(tabObj+"_Title"+i).className = "normal";
+                    document.getElementById(tabObj+"_Content"+i).style.display = "none";
+                }
+            }
+        }
+        function CopyAll()
+        
+        {
+        
+                 var obj = document.getElementById("articleContent");
+        
+                 if(obj!=null){
+        
+                           var content = obj.innerText;
+        
+                           window.clipboardData.setData("Text",content);          
+        
+                           alert("复制成功");
+        
+                 }                 
+        
+        }
+        
+        function zoomIn() {
+         newZoom= parseInt(ozoom.style.zoom)+10+'%'
+         ozoom.style.zoom =newZoom;
+         } 
+        function zoomOut() {
+         newZoom= parseInt(ozoom.style.zoom)-10+'%'
+         ozoom.style.zoom =newZoom;
+         } 
+        
+        </script>
+        <script type="text/javascript">
+            var focus_width=260;
+            var focus_height=180;
+            var text_height=20;
+            var swf_height = focus_height+text_height;
+            var pics ="";
+            var links ="";
+            var texts ="";
+            var resCount=0;
+            function showArtPics()
+            {
+            if(resCount>0)
+            {
+            pics = pics.substring(0, pics.length-1);
+            links = links.substring(0, links.length-1);
+            texts = texts.substring(0, texts.length-1);
+            var content = "";
+            content += '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">';
+            content += '<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="../../../tplimg/picflash.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">';
+            content += '<param name="menu" value="false"/><param name="wmode" value="opaque"/>';
+            content += '<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">';
+            content += '<embed src="../../../tplimg/picflash.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ focus_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />';
+            content += '<\/object>';
+            document.getElementById("showArtPicsDiv").innerHTML = content;
+            }
+           }
+           </script>
+<style>
+    body,div{
+        font-family: '宋体';
+    }
+    .main .article-box .article h1,.main .article-box .article h2,.main .article-box .article h3{
+        font-family: Microsoft YaHei,SimSun,sans-serif,'宋体';
+    }
+    .main .right-main .title{
+        font-weight: bold;
+    }
+    .pci_c{margin:10px auto;width:410px}
+    table{
+        border-spacing:0;
+    }
+    table td{
+        text-align: center;
+        border-spacing:0;
+    }
+    .pci_c td img{
+        width: auto;
+    }
+    .top img {
+padding-top: 15px;
+margin-left:0px;
+}
+.nav {
+margin-right:0;
+}
+.pci_c td{
+    width: 100%;
+}
+.pci_c td p{
+    text-align: left;
+    font-size: 14px;
+    width: auto;
+    padding-top:15px;
+    line-height:160%;
+}
+#ozoom p{
+    line-height: 170%;
+    padding: 5px 0;
+}
+.main .article-box .article .sec span{
+    margin-top:10px;
+}
+.main .swiper-box .swiper-container .swiper-slide{
+        text-align: center;
+        background: #d00;
+        color: #fff;
+        width:19.5%;
+        float: left;
+        margin-bottom:1px;
+        margin-right:1px;
+        text-indent: 0;
+        height:34px;
+        line-height:34px;
+    }
+    .main .swiper-box .swiper-container .swiper-slide a{
+        color: #fff;
+    }
+    .curr-news span{
+        display: inline-block;
+        color: #fff;
+        background: #d00;
+        padding:5px 15px;
+        font-size:16px;
+        height:25px;
+        line-height:25px;
+    }
+    .main .right-main .date-box span{
+      cursor: pointer;
+    }
+    .ribao, .zhoubao, .zazhi {
+        background:none;
+        padding: 10px 15px;
+        width: 140px;
+        z-index: 3;
+        position: absolute;
+        top: 60px;
+        left:-30px;
+        display: none;
+    }
+    .ribao li, .zhoubao li, .zazhi li{
+        border:1px solid #e2e2e2;
+        color: #333;
+        padding:3px 10px;
+        border-top:none;
+        width:150px;
+        background: #fff;
+    }
+    .ribao li:nth-child(1),.zhoubao li:nth-child(1),.zazhi li:nth-child(1){
+        border-top:1px solid #e2e2e2;
+    }
+    .nav li{
+        cursor: pointer;
+    }
+    .ribao li a, .zhoubao li a, .zazhi li a{
+        color: #333;
+    }
+    .main .news .news-list li span{
+        font-size:20px;
+        margin-right:5px;
+    }
+    .main .article-box .art-btn span{padding:0 15px;}
+    .main .article-box .art-btn strong{font-weight: normal;float:right;margin-right:15px;}
+    .main .article-box .art-btn strong span{padding:0px;}
+    .main .swiper-box .swiper-container .swiper-slide{
+        font-size:12px;
+        width:24.5%;
+    }
+    /* .main .swiper-box .swiper-container .swiper-slide:nth-child(4){
+        line-height:129%;padding:8px 1% 0 1%;height:36px;width:22.5%
+    } */
+@media (min-device-width: 320px) and (max-width: 689px), (max-device-width: 480px) {
+    body{
+        overflow: auto;
+    }
+  }
+</style>
+</head>
+
+<body onLoad="initialize();initMPPage();showArtPics();">
+    <!--题图-->
+    <div class="top">
+        <div class="w1000">
+            <a href="http://www.people.com.cn" target="_blank"><img class="left" src="../../../tplimg/logo.png" alt=""></a>
+            <ul class="right nav">
+                <li id="ribao">日报
+                    <ul class="ribao" id="ribaobox">
+                        <li><a href='http://paper.people.com.cn/rmrb/paperindex.htm' target='_blank'>人民日报</a></li>
+                        <li><a href="http://paper.people.com.cn/rmrbhwb/paperindex.htm" target="_blank">人民日报海外版</a></li>
+                        <li><a href="http://www.huanqiu.com/" target="_blank">环球时报</a></li>
+                        <li><a href="http://epaper.stcn.com/" target="_blank">证券时报</a></li>
+                    </ul>
+                </li>
+                <li id="zhoubao">周报
+                    <ul class="zhoubao" id="zhoubaobox">
+                        <li><a href="http://paper.people.com.cn/gjjrb/paperindex.htm" target="_blank">国际金融报</a></li>
+                        <li><a href="http://paper.people.com.cn/zgnyb/paperindex.htm" target="_blank">中国能源报</a></li>
+                        <li><a href="http://paper.people.com.cn/jksb/paperindex.htm" target="_blank">健康时报</a></li>
+                        <li><a href="http://paper.people.com.cn/fcyym/paperindex.htm" target="_blank">讽刺与幽默</a></li>
+                        <li><a href="http://paper.people.com.cn/zgcsb/paperindex.htm" target="_blank">中国城市报</a></li>
+                    </ul>
+
+                </li>
+                <li id="zazhi">杂志
+                    <ul class="zazhi" id="zazhibox">
+                        <li><a href="http://paper.people.com.cn/xwzx/paperindex.htm" target="_blank">新闻战线</a></li>
+                        <li><a href="http://paper.people.com.cn/rmlt/paperindex.htm" target="_blank">人民论坛</a></li>
+                        <li><a href="http://paper.people.com.cn/rmzk/paperindex.htm" target="_blank">人民周刊</a></li>
+                        <li><a href="http://paper.people.com.cn/zgjjzk/paperindex.htm" target="_blank">中国经济周刊</a></li>
+                        <li><a href="http://paper.people.com.cn/mszk/paperindex.htm" target="_blank">民生周刊</a></li>
+                        <li><a href="http://history.people.com.cn/GB/198819/index.html" target="_blank">国家人文历史</a></li>
+                        <li><a href="http://paper.people.com.cn/zgby/paperindex.htm" target="_blank">中国报业</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="main w1000">
+        <div class="left paper-box">
+            <div class="paper">
+                <map name=PagePicMap><Area coords="2,29,298,29,298,399,2,399" shape="polygon" href="./nw.D110000renmrb_20220320_1-03.htm"><Area coords="307,29,397,29,397,315,307,315" shape="polygon" href="nw.D110000renmrb_20220320_2-03.htm"><Area coords="397,343,397,323,307,323,307,343,307,563,397,563" shape="polygon" href="nw.D110000renmrb_20220320_3-03.htm"><Area coords="2,407,156,407,156,506,2,506" shape="polygon" href="nw.D110000renmrb_20220320_4-03.htm"><Area coords="165,407,298,407,298,563,165,563" shape="polygon" href="nw.D110000renmrb_20220320_5-03.htm"><Area coords="156,514,2,514,2,535,2,563,156,563" shape="polygon" href="nw.D110000renmrb_20220320_6-03.htm"></map><img  width=400 height=575 src=../../../images/2022-03/20/03/rmrb2022032003_b.jpg border=0 USEMAP=#PagePicMap>
+            </div>
+            <div class="paper-bot">
+                <p class="left ban">第03版:要闻</p>
+                <!-- <p class="right btn">PDF下载</p> -->
+            </div>
+            <div class="news">
+                <p class="curr-news"><span>本版新闻</span></p>
+<!--新样式-->
+<ul class='news-list'>
+
+
+<li>
+<span>·</span><a href=./nw.D110000renmrb_20220320_1-03.htm>携手共建人类卫生健康共同体（命运与共）  </a></li>
+<li class="one">
+ <span>·</span><a href=nw.D110000renmrb_20220320_2-03.htm>积极参与和促进国际合作（国际论坛）  </a></li>
+<li>
+<span>·</span><a href=nw.D110000renmrb_20220320_3-03.htm>中外专家研讨消除数字鸿沟促进人权保障  </a></li>
+<li class="one">
+ <span>·</span><a href=nw.D110000renmrb_20220320_4-03.htm>保护好中华民族精神生生不息的根脉  </a></li>
+<li>
+<span>·</span><a href=nw.D110000renmrb_20220320_5-03.htm>以创新技术助力“中国智造”（见证·中国机遇）  </a></li>
+<li class="one">
+ <span>·</span><a href=nw.D110000renmrb_20220320_6-03.htm>王毅同赞比亚外长卡库博举行会谈  </a></li>
+
+</ul><!-- list endding -->
+            </div>
+            
+        </div>
+        <div class="right right-main">
+            <p class="title"><a href='http://data.people.com.cn/rmrb/' target='_blank'>人民日报图文数据库（1946-2021）</a></p>
+            <div class="date-box">
+                <p class="date left">
+                    人民日报
+   2022年03月20日 星期日<span><img onClick="autoShowDate();" src="../../../tplimg/down.png" alt=""></span>
+                </p>
+                <p class="right">
+                   
+                </p>
+                        <!-------rqdh版面导航------>
+        <div id=daydh style="display:none; position:absolute; left:140px;top:30px;z-index:1000; filter:alpha(opacity=90);"  onmouseover="document.getElementById('daydh').style.display='block';" >
+            <form name=CLD style="padding:0px;margin:0px;">
+              <table width="210" border="0" cellpadding="0" cellspacing="1" bordercolor="#007CD2" bgcolor="#e0e0e0">
+                <tr>
+                  <td bgcolor="#D8EFFF" style="padding: 3px;"><table cellspacing=0 cellpadding=0 width="100%" align=center border=0 bgcolor="#D8EFFF">
+                    <tr>
+                      <td><table width="100%" align=center border="0" cellpadding="1" cellspacing="1">
+                        <tr class="default" align=center>
+                          <td height=15 colspan=7 bgcolor="#FFFFFF"><table width="100%" border="0" cellpadding="2" cellspacing="0">
+                            <tr align="center">
+                              <td align="left" nowrap><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,0)" /></td>
+                              <td><select class=jumpmenu onChange=changeMPCld() name=SY>
+                                <script language=JavaScript>
+                          for(i=2006;i<2051;i++)
+                          document.write('<option>'+i+'</option>')
+                          </script>
+                              </select>
+                              </td>
+                              <td><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SY,1)" /></td>
+                              <td align="center" nowrap><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d1.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,0)" /></td>
+                              <td><select class=jumpmenu onChange=changeMPCld() name=SM>
+                                <script language=JavaScript>
+                      <!--
+                          for(i=1;i<13;i++) document.write('<option>'+i+'</option>')
+                      //-->
+                          </script>
+                              </select>
+                              </td>
+                              <td><img src="../../../../../../tiaoshidomain/applications/mp/file_upload/enp/1/12http://paper.paper.com.cn/rmrb/tplimg/d.gif" width="7" height="11" style="cursor:hand;" onClick="turnpage(SM,1)" /></td>
+                              <td align="right" nowrap><strong><font id=GZ fface="Arial, Helvetica, sans-serif"></font></strong></td>
+                            </tr>
+                          </table></td>
+                        </tr>
+                        <tr align=middle bgcolor="#FFFFFF" class="default">
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">日</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">一</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">二</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">三</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">四</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">五</font></b></td>
+                          <td style="color: #fff;background: #d00;" align="center" class="fontstyle01"><b><font face="Arial, Helvetica, sans-serif">六</font></b> </td>
+                        </tr>
+                        <script type="text/JavaScript">
+                            var gNum;
+                            for(i=0;i<6;i++)
+                            {
+                                document.write('<tr align=center>');
+                                for(j=0;j<7;j++)
+                                {
+                                    gNum = i*7+j;
+                                    document.write('<td  bgcolor="#FFFFFF" class="default" align=center id="GD' + gNum +'" style="cursor: default;" width="14%"><a href="" id="CD' + gNum + '"><span class="date" style="font-family:Verdana, Arial;font-size:11px;"><font _onMouseOver="mOvr(' + gNum +')" onMouseOut="mOut()" id="SD' + gNum +'"');
+                                    document.write('></font></span></a><br><font id="LD' + gNum + '" size=2 class=pt9 style=display:none></font></td>');
+                                }
+                                document.write('</tr>');
+                            }
+                  </script>
+                      </table></td>
+                    </tr>
+                  </table></td>
+                </tr>
+                <tr><td align="center" height="22"><a href="#" onClick="autoShowDate();">关闭</a></td></tr>
+              </table>
+            </form>
+          </div>
+          <!-------rqdh版面导航END------>
+            </div>
+            <div class="swiper-box">
+                <div class="swiper-container">
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_01.htm>01版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_02.htm>02版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_03.htm>03版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_04.htm>04版：要闻</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_05.htm>05版：新青年</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_06.htm>06版：国防</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_07.htm>07版：国际副刊</a>
+</div>
+<div class='swiper-slide'>
+<a id=pageLink href=nbs.D110000renmrb_08.htm>08版：副刊</a>
+</div>
+</ul><!-- list endding -->
+                    
+                </div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
+            </div>
+            <div class="article-box">
+                <div class="art-btn">
+                          <span><a href=nbs.D110000renmrb_03.htm>返回目录</a></span>&nbsp;&nbsp;<a href="#" onclick="zoomIn();"><span class="big">放大</span><a href="#" onclick="zoomOut();"><span class="small">缩小</span></a><a href="#" onclick="CopyAll();"><span>全文复制</span></a>&nbsp;&nbsp;&nbsp;<strong><a class=preart href="nw.D110000renmrb_20220320_2-03.htm"><span>下一篇 </span></a></strong>
+                    <div style="display:none" id="articleContent">
+                        
+                            <!--enpcontent--><P>　　“中方将继续支持柬埔寨抗击疫情”“中方愿同南非探讨疫苗生产合作，支持南非和非洲国家抗击疫情”“双方要落实好我们就深化新冠疫苗合作等达成的共识，继续加强抗疫合作”……近日在同外国领导人通电话时，习近平主席如是表达中国支持有关国家和地区抗击新冠肺炎疫情的坚定决心。</P><P>　　两年来，习近平主席多次在国际舞台上深入阐述构建人类卫生健康共同体的重要意义，提出一系列重大倡议和举措，得到国际社会广泛认同，为世界冲破疫情至暗时刻带来光明和希望。</P><P>　　疫情仍在反复，团结抗疫仍是当前和今后一个时期世界上的大事。面对疫情挑战，中国秉持人类卫生健康共同体理念，坚定不移推动疫情防控国际合作，坚定不移为各国特别是广大发展中国家抗击疫情提供支持，展现出胸怀天下的大国担当。</P><P>　　中国理念深入人心——</P><P>　　“实现所有人都健康安全的最佳路径”</P><P>　　新冠肺炎疫情是百年来全球发生的最严重的传染病大流行。面对突如其来的严重疫情，中国坚持人民至上、生命至上，取得疫情防控阻击战重大战略成果，交出一份经得起时间和历史检验的抗疫答卷。中国同世界各国携手合作、共克时艰，为全球抗疫贡献了重要智慧和力量。</P><P>　　“中方愿同法方共同推进疫情防控国际合作，支持联合国及世界卫生组织在完善全球公共卫生治理中发挥核心作用，打造人类卫生健康共同体。”2020年3月，习近平主席就法国发生疫情向法国总统马克龙致慰问电时，首次提出“打造人类卫生健康共同体”。</P><P>　　2020年3月26日，二十国集团领导人应对新冠肺炎特别峰会举行。习近平主席在峰会上提出坚决打好新冠肺炎疫情防控全球阻击战、有效开展国际联防联控、积极支持国际组织发挥作用、加强国际宏观经济政策协调4点倡议，为全球团结抗疫指明方向；</P><P>　　2020年5月18日，在第七十三届世界卫生大会视频会议开幕式上，习近平主席宣布中国支持全球抗疫合作的五项举措，包括将在两年内提供20亿美元国际援助、中国新冠疫苗研发完成并投入使用后将作为全球公共产品等，为全球团结抗疫注入重要动力；</P><P>　　2020年6月17日，习近平主席在中非团结抗疫特别峰会上提出一系列重要倡议和主张，展现了中非团结抗疫、共克时艰的坚定决心，指明了疫情形势下中非抗疫及务实合作的前行路径；</P><P>　　2021年5月21日，在全球健康峰会上，习近平主席进一步提出推进国际抗疫合作的五项主张，宣布支持全球抗疫合作的五大举措，为全球尽早战胜疫情、实现经济复苏注入强大信心；</P><P>　　2022年1月17日，在世界经济论坛视频会议上，习近平主席再次强调，世界各国要加强国际抗疫合作，积极开展药物研发合作，共筑多重抗疫防线，加快建设人类卫生健康共同体；</P><P>　　…………</P><P>　　国际人士指出，“构建人类卫生健康共同体，这是实现所有人都健康安全的最佳路径”，“中国积极开展国际抗疫合作，展现大国担当，人类卫生健康共同体理念更加深入人心”。</P><P>　　中国言必信、行必果——</P><P>　　“彰显慷慨无私的国际合作精神”</P><P>　　行动是最生动的语言。</P><P>　　中国与180个国家、10多个国际和地区组织分享疫情防控和诊疗方案；向34个国家派出37支医疗专家组；向150多个国家和14个国际组织提供大量抗疫物资……构建人类卫生健康共同体，推进国际抗疫合作，中国言必信、行必果，成为践行人类卫生健康共同体理念的积极行动派。</P><P>　　中国已向120多个国家和国际组织提供超过21亿剂疫苗，成为对外提供疫苗最多的国家。中国相继向20个国家转让技术、合作生产疫苗，在海外形成了10亿剂疫苗年产能。中国疫苗跨越千山万水，佑护千千万万民众安康。</P><P>　　巴西护士卡拉桑斯在圣保罗市埃米利奥·里巴斯传染病研究所重症监护室工作，去年1月17日接种了第一剂中国疫苗，也是巴西首位疫苗接种者。随着中巴疫苗合作不断推进，巴西全国已有约68%人口完成新冠疫苗全程接种。“我一年前许下的心愿已经实现，巴西全国大部分人都接种了新冠疫苗，包括我的妈妈和外婆。”她说，“人们对中国疫苗越来越信任，这是救命的疫苗。”</P><P>　　在津巴布韦，得益于中国疫苗的帮助，维多利亚瀑布城成为该国第一个实现群体免疫的城镇。津主流媒体ZTN电视台为此专门制作纪录片，称赞津中疫苗合作项目为维多利亚瀑布城树起“健康之盾”。纪录片中描述：瀑布城之所以能如此迅速地从疫情中走出来，成为南部非洲首批复苏的旅游目的地之一，要归功于津中开展新冠疫苗合作的战略决定。</P><P>　　“中国向包括巴基斯坦在内的许多国家和国际组织援助疫苗，为全球抗疫作出的贡献不可磨灭。”联合国经济和社会理事会主席、巴基斯坦常驻联合国代表穆尼尔·阿克拉姆说，“中国支持全球抗疫彰显慷慨无私的国际合作精神。”</P><P>　　为团结抗疫作出表率——</P><P>　　“中国的支持对多边主义至关重要”</P><P>　　疫情是对全球卫生治理体系的一次集中检验，也是对多边主义的考验。中国始终维护并践行真正的多边主义，坚定不移推进抗疫国际合作，坚持与国际社会一道，共同推动构建人类卫生健康共同体。</P><P>　　习近平主席指出，“人类面临的所有全球性问题，任何一国想单打独斗都无法解决，必须开展全球行动、全球应对、全球合作”，“中国将继续高举真正的多边主义旗帜，坚持与世界相交，与时代相通，在实现自身发展的同时，为全球发展作出更大贡献”。</P><P>　　中国坚定支持联合国和世界卫生组织在抗疫中发挥领导作用，坚定支持加强全球公共卫生体系，提高应对全球性挑战的能力。中国强调，要加强世界卫生组织作用，推进全球疾病大流行防范应对，扎牢维护人类健康安全的篱笆，构建人类卫生健康共同体。</P><P>　　“疫苗鸿沟”成为当前战胜疫情的最大阻碍，低收入国家只有5%的人口完全接种疫苗，同高收入国家的疫苗接种率差距悬殊，这将进一步加剧全球不平等。不久前，中国同全球疫苗免疫联盟签署协议，向“新冠疫苗实施计划”捐赠1亿美元，用于向发展中国家分配新冠疫苗。中国坚定推动实现全球疫苗公平分配，有助于尽快实现世界卫生组织计划今年年中为所有国家70%的人接种疫苗的目标。</P><P>　　“中国的支持对多边主义至关重要。”联合国秘书长古特雷斯说，在一个充满不确定性的世界，中国坚定维护多边主义，维护公平正义，维护联合国宪章宗旨和原则，给世界以确定性、信心和希望。</P><P>　　察势者明，趋势者智。中国将一如既往携手各方，不断为构建人类卫生健康共同体作出新贡献。</P><!--/enpcontent-->
+                            
+                    </div>
+                </div>
+                <div class="article">
+                            
+<h3></h3>
+<h1>携手共建人类卫生健康共同体（命运与共）</h1>
+<h2></h2>
+
+                    <p class="sec">
+                        <!-- <span class="origin">人民日报</span>
+                        <span class="date">(2020年02月06日 01版)</span> -->
+                        本报记者  李  琰  朱玥颖
+                        <span class="date">《
+          人民日报
+          》（
+          2022年03月20日
+&nbsp;
+          第&nbsp;03
+          版）</span>
+                    </p>
+                    <div align="center" style="padding:10px 0 15px 0">
+        		
+               </div>
+    
+                                   <TABLE class="pci_c" width="400"><TBODY><TR><TD align="center"><IMG src="../../../images/1/20220320/1647717419676_1.jpg"></TD></TR> <TR><TD><p>　　中国第二十二批援卢旺达医疗队不久前向卢旺达东方省的基本戈医院捐赠了一批医疗和抗疫物资，包括医用防护服、一次性无菌手术衣、医用外科口罩等。图为中国医疗队队长彭际奎（左）向该院院长加希马·约翰交接捐赠物资。<BR/>　　新华社记者  吉  莉摄</p></TD></TR></TBODY></TABLE>
+             <DIV id=ozoom style="zoom:100%;">
+               <div id="showArtPicsDiv" align="center"></div>
+               <script language=javascript>
+                               /*	if(picResCount>0){
+                                       document.getElementById("picres").style.display="block";
+                                       document.write("<br />");
+                                   }*/
+                                  </script>
+                
+               <!--enpcontent--><P>　　“中方将继续支持柬埔寨抗击疫情”“中方愿同南非探讨疫苗生产合作，支持南非和非洲国家抗击疫情”“双方要落实好我们就深化新冠疫苗合作等达成的共识，继续加强抗疫合作”……近日在同外国领导人通电话时，习近平主席如是表达中国支持有关国家和地区抗击新冠肺炎疫情的坚定决心。</P><P>　　两年来，习近平主席多次在国际舞台上深入阐述构建人类卫生健康共同体的重要意义，提出一系列重大倡议和举措，得到国际社会广泛认同，为世界冲破疫情至暗时刻带来光明和希望。</P><P>　　疫情仍在反复，团结抗疫仍是当前和今后一个时期世界上的大事。面对疫情挑战，中国秉持人类卫生健康共同体理念，坚定不移推动疫情防控国际合作，坚定不移为各国特别是广大发展中国家抗击疫情提供支持，展现出胸怀天下的大国担当。</P><P>　　中国理念深入人心——</P><P>　　“实现所有人都健康安全的最佳路径”</P><P>　　新冠肺炎疫情是百年来全球发生的最严重的传染病大流行。面对突如其来的严重疫情，中国坚持人民至上、生命至上，取得疫情防控阻击战重大战略成果，交出一份经得起时间和历史检验的抗疫答卷。中国同世界各国携手合作、共克时艰，为全球抗疫贡献了重要智慧和力量。</P><P>　　“中方愿同法方共同推进疫情防控国际合作，支持联合国及世界卫生组织在完善全球公共卫生治理中发挥核心作用，打造人类卫生健康共同体。”2020年3月，习近平主席就法国发生疫情向法国总统马克龙致慰问电时，首次提出“打造人类卫生健康共同体”。</P><P>　　2020年3月26日，二十国集团领导人应对新冠肺炎特别峰会举行。习近平主席在峰会上提出坚决打好新冠肺炎疫情防控全球阻击战、有效开展国际联防联控、积极支持国际组织发挥作用、加强国际宏观经济政策协调4点倡议，为全球团结抗疫指明方向；</P><P>　　2020年5月18日，在第七十三届世界卫生大会视频会议开幕式上，习近平主席宣布中国支持全球抗疫合作的五项举措，包括将在两年内提供20亿美元国际援助、中国新冠疫苗研发完成并投入使用后将作为全球公共产品等，为全球团结抗疫注入重要动力；</P><P>　　2020年6月17日，习近平主席在中非团结抗疫特别峰会上提出一系列重要倡议和主张，展现了中非团结抗疫、共克时艰的坚定决心，指明了疫情形势下中非抗疫及务实合作的前行路径；</P><P>　　2021年5月21日，在全球健康峰会上，习近平主席进一步提出推进国际抗疫合作的五项主张，宣布支持全球抗疫合作的五大举措，为全球尽早战胜疫情、实现经济复苏注入强大信心；</P><P>　　2022年1月17日，在世界经济论坛视频会议上，习近平主席再次强调，世界各国要加强国际抗疫合作，积极开展药物研发合作，共筑多重抗疫防线，加快建设人类卫生健康共同体；</P><P>　　…………</P><P>　　国际人士指出，“构建人类卫生健康共同体，这是实现所有人都健康安全的最佳路径”，“中国积极开展国际抗疫合作，展现大国担当，人类卫生健康共同体理念更加深入人心”。</P><P>　　中国言必信、行必果——</P><P>　　“彰显慷慨无私的国际合作精神”</P><P>　　行动是最生动的语言。</P><P>　　中国与180个国家、10多个国际和地区组织分享疫情防控和诊疗方案；向34个国家派出37支医疗专家组；向150多个国家和14个国际组织提供大量抗疫物资……构建人类卫生健康共同体，推进国际抗疫合作，中国言必信、行必果，成为践行人类卫生健康共同体理念的积极行动派。</P><P>　　中国已向120多个国家和国际组织提供超过21亿剂疫苗，成为对外提供疫苗最多的国家。中国相继向20个国家转让技术、合作生产疫苗，在海外形成了10亿剂疫苗年产能。中国疫苗跨越千山万水，佑护千千万万民众安康。</P><P>　　巴西护士卡拉桑斯在圣保罗市埃米利奥·里巴斯传染病研究所重症监护室工作，去年1月17日接种了第一剂中国疫苗，也是巴西首位疫苗接种者。随着中巴疫苗合作不断推进，巴西全国已有约68%人口完成新冠疫苗全程接种。“我一年前许下的心愿已经实现，巴西全国大部分人都接种了新冠疫苗，包括我的妈妈和外婆。”她说，“人们对中国疫苗越来越信任，这是救命的疫苗。”</P><P>　　在津巴布韦，得益于中国疫苗的帮助，维多利亚瀑布城成为该国第一个实现群体免疫的城镇。津主流媒体ZTN电视台为此专门制作纪录片，称赞津中疫苗合作项目为维多利亚瀑布城树起“健康之盾”。纪录片中描述：瀑布城之所以能如此迅速地从疫情中走出来，成为南部非洲首批复苏的旅游目的地之一，要归功于津中开展新冠疫苗合作的战略决定。</P><P>　　“中国向包括巴基斯坦在内的许多国家和国际组织援助疫苗，为全球抗疫作出的贡献不可磨灭。”联合国经济和社会理事会主席、巴基斯坦常驻联合国代表穆尼尔·阿克拉姆说，“中国支持全球抗疫彰显慷慨无私的国际合作精神。”</P><P>　　为团结抗疫作出表率——</P><P>　　“中国的支持对多边主义至关重要”</P><P>　　疫情是对全球卫生治理体系的一次集中检验，也是对多边主义的考验。中国始终维护并践行真正的多边主义，坚定不移推进抗疫国际合作，坚持与国际社会一道，共同推动构建人类卫生健康共同体。</P><P>　　习近平主席指出，“人类面临的所有全球性问题，任何一国想单打独斗都无法解决，必须开展全球行动、全球应对、全球合作”，“中国将继续高举真正的多边主义旗帜，坚持与世界相交，与时代相通，在实现自身发展的同时，为全球发展作出更大贡献”。</P><P>　　中国坚定支持联合国和世界卫生组织在抗疫中发挥领导作用，坚定支持加强全球公共卫生体系，提高应对全球性挑战的能力。中国强调，要加强世界卫生组织作用，推进全球疾病大流行防范应对，扎牢维护人类健康安全的篱笆，构建人类卫生健康共同体。</P><P>　　“疫苗鸿沟”成为当前战胜疫情的最大阻碍，低收入国家只有5%的人口完全接种疫苗，同高收入国家的疫苗接种率差距悬殊，这将进一步加剧全球不平等。不久前，中国同全球疫苗免疫联盟签署协议，向“新冠疫苗实施计划”捐赠1亿美元，用于向发展中国家分配新冠疫苗。中国坚定推动实现全球疫苗公平分配，有助于尽快实现世界卫生组织计划今年年中为所有国家70%的人接种疫苗的目标。</P><P>　　“中国的支持对多边主义至关重要。”联合国秘书长古特雷斯说，在一个充满不确定性的世界，中国坚定维护多边主义，维护公平正义，维护联合国宪章宗旨和原则，给世界以确定性、信心和希望。</P><P>　　察势者明，趋势者智。中国将一如既往携手各方，不断为构建人类卫生健康共同体作出新贡献。</P><!--/enpcontent-->
+   <INPUT type=checkbox value=0 name=titlecheckbox sourceid="<Source>SourcePh</Source>" style="display:none">
+                          
+                               
+                  
+             </DIV>
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="w1000">
+            <p class="copy-cont">版权声明</p>
+            <p class="copy-text" style="text-indent: 2em;">《人民日报》（电子版）的一切内容(包括但不限于文字、图片、PDF、图表、标志、标识、商标、版面设计、专栏目录与名称、内容分类标准以及为读者提供的任何信息)仅供人民网读者阅读、学习研究使用，未经人民网股份有限公司及/或相关权利人书面授权，任何单位及个人不得将《人民日报》（电子版）所登载、发布的内容用于商业性目的，包括但不限于转载、复制、发行、制作光盘、数据库、触摸展示等行为方式，或将之在非本站所属的服务器上作镜像。否则，人民网股份有限公司将采取包括但不限于网上公示、向有关部门举报、诉讼等一切合法手段，追究侵权者的法律责任。</p>
+            <div class="bottom-box">
+                <div class="left tele">
+                    <p class="p1">人民日报手机报</p>
+                    <p class="p2">移动用户 发送<span class="red">RMRB</span>到<span class="red">10658000</span></p>
+                    <p class="p3">联通用户 发送<span class="red">RMRB</span>到<span class="red">10655111</span></p>
+                </div>
+                <ul class="right code">
+                    <li><img src="../../../tplimg/ios.png" alt=""><p>ios版</p></li>
+                    <li><img src="../../../tplimg/android.png" alt=""><p>android版</p></li>
+                    <li><img src="../../../tplimg/mini.png" alt=""><p>微信小程序</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" clearfix w1000">
+            <div class="copyright">
+                人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>
+                Copyright &copy; 1997-2020 by www.people.com.cn all rights reserved
+            </div>
+        </div>
+    </div>
+    <div class="go-top" id="go-top">
+        <img src="../../../tplimg/go_top.png" alt="">
+    </div>
+    <script language=JavaScript>
+        document.write("<div id=detail style=position:absolute;width:300px;></div>");
+    </script>
+    <SCRIPT language=Javascript src="../../../tplimg/disname2.js"></SCRIPT>
+    <script>
+        // var swiperBox = document.getElementById('swiperBox').getElementsByTagName('div');
+        
+        // if(swiperBox.length <= 4){
+        //     var mySwiper = new Swiper('.swiper-container', {
+        //     slidesPerView:swiperBox.length,
+        //     slidesPerColumnFill : 'row',
+        //     spaceBetween : 3,
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+            
+        //   })
+        // }else{
+        //     var mySwiper = new Swiper('.swiper-container', {
+        //     slidesPerView:4,
+        //     slidesPerColumnFill : 'row',
+        //     spaceBetween : 3,
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+        //   })
+        // }
+
+        
+        ;(function(){
+          var _global;
+          let duration = 500;//时间参数
+          var plugin = {
+              tipNav:function(tipmain,tipsub){
+                tipmain.addEventListener('mouseover',function(){
+                    tipsub.style.display = 'block'
+                },false);
+                tipmain.addEventListener('mouseout',function(){
+                    tipsub.style.display = 'none'
+                },false);
+              },
+              replayTop:function(tipmain){
+                    tipmain.addEventListener('click',function(){
+                        let topSzie = document.documentElement.scrollTop;
+                        let s = topSzie / 600 * 25;  //路程/时间=s *25每隔25ms秒 动的路程
+                        let st = setInterval(function () {
+                            topSzie -= s;
+                            if (topSzie <= 0) {
+                                topSzie = 0; //当l<=0时，设置l=0
+                                clearInterval(st);
+                            }
+                            document.documentElement.scrollTop = topSzie;
+                        }, 25)
+                    },false);
+
+              }
+          }
+          //赋值全局
+          _global = (function(){ return this || (0, eval)('this'); }());
+         !('plugin' in _global) && (_global.plugin = plugin);
+
+        })(window)
+
+
+            var ribaoButton = document.getElementById('ribao');
+            var ribaoBox = document.getElementById('ribaobox');
+            var zhoubaoButton = document.getElementById('zhoubao');
+            var zhoubaoBox = document.getElementById('zhoubaobox');
+            var zazhiButton = document.getElementById('zazhi');
+            var zaizhiBox = document.getElementById('zazhibox');
+            var goTop = document.getElementById('go-top');
+
+            plugin.tipNav(ribaoButton,ribaoBox);
+            plugin.tipNav(zhoubaoButton,zhoubaoBox);
+            plugin.tipNav(zazhiButton,zaizhiBox);
+            plugin.replayTop(goTop);
+
+        
+    </script>
+    <script src="http://www.people.com.cn/img/2020test/paperobject.js" type="text/javascript"></script>
+    <SCRIPT language=Javascript src="../../../tplimg/webdig_test.js"></SCRIPT>
+
+
+
+</body>
+
+</html>
+
+<!--mpproperty <founder-date>
+2022-03-20
+</founder-date>
+<founder-author>
+本报记者  李  琰  朱玥颖
+</founder-author>
+<founder-title>携手共建人类卫生健康共同体（命运与共）
+</founder-title>
+<founder-nodename></founder-nodename>
+<founder-keyword>
+
+</founder-keyword><founder-ChannelID>
+1,921
+</founder-ChannelID><founder-imp>0</founder-imp>
+<founder-subtitle></founder-subtitle>
+<founder-type>1</founder-type>
+<founder-introtitle></founder-introtitle>
+<founder-pagepicurl>http://paper.paper.com.cn/rmrb/images/2022-03/20/03/rmrb2022032003_b.jpg</founder-pagepicurl>
+<founder-pagenum>03</founder-pagenum>
+<founder-papername>人民日报</founder-papername>
+<founder-nodeid>1,924</founder-nodeid> /mpproperty-->
+
+
