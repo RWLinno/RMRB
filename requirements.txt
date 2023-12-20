@@ -1,0 +1,5 @@
+beautifulsoup4==4.12.2
+chardet==5.2.0
+lxml==4.9.3
+pandas==2.0.3
+Requests==2.31.0

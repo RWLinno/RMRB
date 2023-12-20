@@ -61,6 +61,7 @@ RMRB/
 │   new_people.py
 │   old_people.py
 │   utils.py
+│   requirements.txt
 │   ...
 ```
 
@@ -78,9 +79,24 @@ RMRB/
 
 
 
+### Quick Start
+
+下面直接在命令行里创建虚拟环境->激活->安装依赖包->运行程序
+
+```
+conda create -n RMRB python=3.8
+conda activate RMRB
+pip install -r requirements.txt
+python new_people.py
+```
+
+![image-20231220132612994](https://s2.loli.net/2023/12/20/GW9eKigMBsD25fE.png)
+
+
+
 ### 使用方法
 
-修改下图所示参数，直接运行爬虫程序即可。
+修改下图所示参数，直接在IDE里运行爬虫程序即可。
 
 ![image-20231218232625885](https://s2.loli.net/2023/12/18/mg3HkYS5auhld4p.png)
 
