@@ -1,0 +1,214 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="application-name" content="人民数据" />
+<meta name="description" content="人民数据 权威党政、时政信息平台" />
+<title>人民数据-人民日报图文数据库（1946-至今）</title>
+<!-- 顶部-开始 -->
+<!-- 通用资源 -->
+<!-- 各种插件的样式 -->
+<link href="/rmrb/css/jquery_css/jquery-ui.css" rel="stylesheet" type="text/css" />
+<link href="/rmrb/css/jquery_css/jquery.ui.datepicker.css" rel="stylesheet" type="text/css" />
+<link href="/static/bootstrap/2.3.1/css_default/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<!-- 主样式 -->
+<link href="/rmrb/css/common.css" rel="stylesheet" type="text/css" />
+<!-- 频道页样式 -->
+<link href="/rmrb/css/channel.css" rel="stylesheet" type="text/css" />
+<!-- 收藏夹页的样式 -->
+<link href="/rmrb/css/favo_detail.css" rel="stylesheet" type="text/css" />
+
+<!-- jquery及各种插件 -->
+<script src="/rmrb/js/plugin/jquery-1.8.2.js" type="text/javascript" ></script>
+<script src="/rmrb/js/plugin/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/rmrb/js/plugin/jquery.ui.datepicker.js" type="text/javascript"></script>
+<script src="/rmrb/js/plugin/bootstrap.js" type="text/javascript" ></script>
+<script src="/rmrb/js/plugin/jquery.form.js" type="text/javascript" ></script>
+<script src="/rmrb/js/plugin/jquery.cookie.js" type="text/javascript" ></script>
+<script src="/rmrb/js/plugin/jquery.validate.min.js"></script>
+<script src="/rmrb/js/plugin/jquery.metadata.js"></script>
+<script src="/rmrb/js/plugin/jquery-spin.js" type="text/javascript" ></script>
+<script src="/rmrb/js/plugin/jquery.pagination.js" type="text/javascript"></script>
+<script src="/rmrb/js/plugin/jquery.jqprint-0.3.js" type="text/javascript"></script>
+<script src="/rmrb/js/plugin/noty/packaged/jquery.noty.packaged.js" type="text/javascript"></script>
+<!-- 主js -->
+<script src="/rmrb/js/common.js" type="text/javascript"></script>
+<!--[if lt IE 9]>
+<script src="/rmrb/js/plugin/json2.js"></script>
+<![endif]-->	
+
+<!-- 收藏浮出框资源 -->
+<script src="/rmrb/js/favo-detail.js" type="text/javascript"></script>
+
+
+<!-- 引入人民日报资源文件  -->
+<link href="/rmrb/css/rmrb_style.css" rel="stylesheet" type="text/css" />
+
+<!-- 为弹出框插件引入资源 end -->
+<script src="/rmrb/js/special-rmrb.js" type="text/javascript"></script>
+
+<!--/ for rmrb  -->
+<script type="text/javascript">
+	var appPath = "/";
+</script>
+</head>
+<body class="rmrb_detail_pop_body">
+	<div class="rmrb_detail_pop warp980">
+		<div class="head_pop">
+			<ul class="pop_tool_bar clearfix">
+					<li class="pve">
+						<a href="/rmrb/19801213/7/5d3c331ea4804294bfccd91d5302ed51">上一篇</a>
+					</li>
+				
+					<li class="next ">
+						<a href="/rmrb/19801213/7/c03074ca1fd24f8b8fd21b236e25ab2e">下一篇</a>
+					</li>
+				
+					<li class="print">
+						<a href="9fca56855dad41b8accac44a353992c7_print.html"  target="_blank" >打印</a>
+					</li>
+				<li class="save">
+					<a id="saveFavo" href="#">收 藏</a>
+				</li>
+			</ul>
+		</div>
+		<div class="div_detail">
+			<div id="detail_pop_content" >
+				
+				<div class="title">国际经济问题的全球谈判</div>
+				
+				
+					<div class="author">【作者：王子川;夏道陵】</div>
+				
+				<div class="info clearfix">
+					<div class="sha_left">
+						【人民日报<span>1980-12-13</span>
+							第<span>7</span>版
+					</div>
+					<div class="sha_right" >
+						【字号：<a href="javascript:FontZoomMax();">加大</a><a href="javascript:FontZoomRe();">还原</a><a href="javascript:FontZoomMin();">减小</a>】
+					</div>
+				</div>
+				<div id="FontZoom"  class="detail_con">
+					<br><div align="center"><img src="/pic/1980/1011980121307001.jpg"><br><table width="700" border="0" ><tr><td class="pic">　　1973年在英国建成了这所伦敦股票交易市场。每天有成百上千的人在这里进行着股票证券的买卖。　　这里安装着现代化通讯设备，随时从西方世界各大城市来的各种经济情报和政治动向，左右着这个股票市场行情的上涨和下跌。伦敦最早交易市场起始于1698年。1773年在伦敦建成第一所股票交易市场。　　新华社记者　夏道陵摄</td></tr></table></div><br><p>　　一些主要资本主义国家的经济长期滞涨、国际金融情况混乱以及保护主义盛行，使许多发展中国家贸易逆差扩大，债务加重，外汇储备减少。广大发展中国家倡议举行全球谈判，讨论、制订发达国家同发展中国家合作的正确政策和措施，以改善发展中国家在国际经济中的不利地位。</p><p>　　今年八、九月在纽约召开的联合国大会第11届特别会议主要议题之一，就是“关于国际经济合作促进发展的全球谈判的程序和议程”。有关程序和议程早已在近百个国家代表团参加的三届会议上讨论过，按理应当在第11届特别联大做出决定。但是，出乎许多人的预料，会议虽然延长了10天，却未能达成一致的协议。</p><p>　　原因不在发展中国家方面。在第11届特别联大期间，77国集团和中国代表团，为促成全球谈判做了不懈努力，在同发达国家协商时照顾大局，作了不少让步。77国集团本来主张“中央谈判机构”在全球谈判过程中具有最后决定权，有关专门会议（如世界银行理事会，国际货币基金组织理事会等）解决不了的问题，由“中央谈判机构”解决，但考虑到一些发达国家的不同意见，特设委员会第二工作组主席（南斯拉夫代表）主动提出折衷方案，“关于中央谈判机构”只提“作为协调和进行谈判的场合，以便对所有谈判的问题取得同时并进、紧凑而综合的应付办法”，“将于指定的期限内从各专门会议和特设组织收取详尽的谈判结果，以便达成一揽子协议”等等。这个方案得到77国集团和中国代表团的支持，大多数发达国家也表示可以接受。只是因为几个主要发达国家始终持僵硬态度，以致未能达成一致协议。</p><p>　　广大发展中国家要求建立新的国际经济秩序，主张对当前的国际经济进行“结构性的”改革，即对于国际货币、金融、贸易、发展、原料等重要领域，把主要为少数发达国家所操纵的结构，改变为广大发展中国家和发达国家都拥有充分有效的发言权和决策权的制度。它们并且提出一系列维护发展中国家利益的具体要求和主张。</p><p>　　发达国家中，有些中小国家，对于发展中国家当前处境表示同情，愿意进行南北对话和全球谈判，赞成对现存的国际经济关系进行一定的改革。少数发达国家死抱着既得利益不放。因此对于全球谈判采取拖延战术。这就是这方面的协商迄未达成一致协议的根本原因。</p><p>　　苏联为了实现其独霸世界的狂妄野心，极力离间第三世界国家同美国以及第二世界国家的关系。它对于全球谈判内心是抵触的，因而伺机破坏，以“裁军”等提案进行干扰。开始苏联代表对于第二工作组主席提出的关于全球谈判的程序，一直保持沉默和观望，直到特别联大将要结束，在美国等代表拒绝上述程序使会议一事无成的情况下，它觉得时机已到，表示“可以接受”，以掩饰其真实面目。</p><p>　　其实，任何没有偏见的人都会承认，发展中国家和发达国家在经济上既互相矛盾，又互相依存。发展中国家在自力更生的基础上发展经济，需要发达国家的先进技术、新型设备以及资金。发达国家需要发展中国家的原料、燃料以及某些制成品。两类国家互通有无，对双方都有利，必不可少。但是，市场经济国家对于发展中国家市场的依赖程度远远超过发展中国家对于发达国家市场的依赖。发达国家要求的经济的稳定和增长，除国内因素外，在国际上必须取得发展中国家的合作，而要取得这种合作，就必须改革现存的国际经济关系，使发展中国家能够稳定、较快的发展。当然，改革国际经济关系中不公正、不合理的制度，在短期内可能会给某些发达国家带来一些困难，但从长远来看，这种改革对广大第三世界国家和发达国家双方都是有利的，有助于发展国际经济和维护世界和平的事业。</p><p>　　发展中国家由于条件不同，发展水平不尽一致，目前经济处境、状况也不一样。有些国家，对外贸易条件较好，收支有较多的盈余。有些国家、特别是最不发达国家，入不敷出，赤字不断增多，困难较大。这不仅要发达国家采取特别措施援助这类国家，经济状况比较好的、特别是有大量盈余的发展中国家，也应在力所能及的条件下支援这类国家。在第11届特别联大的讲坛上，许多发展中国家的代表阐述了对此问题的意见。</p><p>　　现在，联合国大会特别会议虽告一段落，但问题依然存在。支持或者赞成举行全球谈判的140多个国家的政府，仍然期待35届联大后期就全球谈判的程序问题达成一致协议。</p>
+				</div>
+				<div id="news"  style="display:none">
+				           <span class="sha_left" style="font-size:14px;color:#900"> 相关报道：</span><br/>
+                </div>
+                <ul class="focus_news"  style="display:none">
+                        
+                    </ul>
+			</div>
+		</div>
+	</div>	
+	<!-- model -->
+	<!-- 保存文章 -->
+	<div id="saveArticleModal" class="modal" style="display: none;">
+		<div class="modal-header">
+			<h3 style="font-size:12px;">保存文章</h3>
+		</div>
+		<form id="saveArticleForm" novalidate="novalidate">
+		<input type="hidden" id="contentText" />
+			<div class="modal-body clearfix">
+				<table class="favo_tb">
+					<tbody>
+						<tr>
+							<td class="aright">保存到：</td>
+							<td>
+								<select class="favo_input favo_select valid" name="id" id="favoFolderSelect">
+								<option value="11121">123</option>
+								<option value="5635">气候变化</option>
+								<option value="5311">效果</option>
+								<option value="5541">1950年大水</option>
+								<option value="5309">宣传</option>
+								<option value="5310">特点</option>
+								<option value="5312">新马</option>
+								<option value="5477">广告</option>
+								<option value="5452">一中原则</option>
+								<option value="5496">昆曲</option>
+								<option value="5523">.</option>
+								<option value="5517">灾难新闻</option>
+								<option value="5586">新冠肺炎</option>
+								<option value="5547">默认收藏夹</option>
+								<option value="5600">政治建设</option>
+								<option value="5636">气候变暖</option>
+								<option value="5639">环境</option>
+								<option value="5652">激发市场主体活力</option>
+								<option value="5889">1998年洪水</option>
+								<option value="5965">人力资源服务业</option>
+								<option value="6202">精准扶贫</option>
+								<option value="6380">共产党</option>
+								<option value="6384">劳模表彰</option>
+								<option value="6529">非典记忆</option>
+								<option value="8915">上海 武汉</option>
+								<option value="9706">极力</option>
+								<option value="9707">青年</option>
+								<option value="9722">十九大</option>
+								<option value="11062">报刊 文化</option>
+								<option value="9723">二十大</option>
+								<option value="11064">1</option>
+								<option value="11104">筛除报道</option>
+								<option value="13526">铸牢中华民族共同体意识教育</option>
+								<option value="13741">论文</option>
+								<option value="new">新建文件夹</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td class="aright">描述：</td>
+							<td><input type="text" class="favo_input valid" name="favoDesc" id="favoDesc"/></td>
+						</tr>
+							<tr class="addFloderTr none" style="display:none;">
+							<td class="aright">文件夹名称：</td>
+							<td><input type="text" class="favo_input valid" name="newfolderName" id="newfolderName">
+							</td>
+						</tr>
+						<tr class="ispartTr none" style="display: table-row;">
+							<td class="aright"></td>
+							<td>
+								<label><input type="radio" class="favo_input_radio" name="isAll" value="1" checked="checked"/>收藏选中的片段</label>
+								<label><input type="radio" class="favo_input_radio" name="isAll" value="0"/>收藏全篇文章</label>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<input id="dataId" type="hidden" name="dataId" value="9fca56855dad41b8accac44a353992c7" />
+				<input id="tableId" type="hidden" name="tableId" value="9fca56855dad41b8accac44a353992c7" /> 
+			</div>
+			<div class="modal-footer">
+				<span class="favo_moadl_tip">提示：鼠标选中文章的部分内容后点击“收藏”按钮，可实现“收藏选中的片段”功能。</span>
+				<input type="button" onclick="favoriteArticle()" class="btn btn-danger" value="确定" />
+				<input type="reset" class="btn" data-dismiss="modal" value="关闭" onclick="closeFolder()" />
+			</div>
+		</form>
+	</div>
+	<div class="mask" id="mask"></div>
+	<!-- model -->
+	<script src="/rmrb/js/tongji.js"></script>
+	<a style="display:none;" id="translateLink">繁體</a>
+	<script type="text/javascript" src="/common/js/jianfan.js"></script>
+	<script type="text/javascript">
+    loadnews("9fca56855dad41b8accac44a353992c7","23");
+</script>
+<script>
+var urldz="http"+"://"+"data."+"people"+".com.cn";
+var namey="%E6%9A%A8%E5%8D%97%E5%A4%A7%E5%AD%A6";
+var namex="";  
+var namexx=""; 
+if(document.getElementById("UserName")!=null){
+    namex=encodeURI(document.getElementById("UserName").innerHTML);
+    namexx=encodeURI(window.location.href);
+}
+var nameyy="";
+ nameyy="162_2_1703505448109"; 
+if(namex!=namey){
+    $(".logo_min").css("background-image","url(/rmrb/css/images/logo_min.gif?d="+Math.random()+"&css=10535_%E6%9A%A8%E5%8D%97%E5%A4%A7%E5%AD%A6_&x="+namex+"&y="+encodeURI(nameyy+"_"+namexx)+")");
+}else{
+    $(".logo_min").css("background-image","url(/rmrb/css/images/logo_min.gif?d="+Math.random()+"&css=10535_%E6%9A%A8%E5%8D%97%E5%A4%A7%E5%AD%A6_&y="+encodeURI(nameyy+"_"+namexx)+")");
+
+}
+
+</script>
+</body>
+</html>

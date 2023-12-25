@@ -91,8 +91,8 @@ def get_args(date, page, pagename, title, author,content, url,destdir):
     return args
 
 def download_rmrb(cnt, date, data, outpath):
-    for pageNo in range(1,5):
-        for titleNo in range(1,5):
+    for pageNo in range(1,21):
+        for titleNo in range(1,21):
             url = 'http://paper.people.com.cn/rmrb/html/'+deal_date1(date)+'/nw.D110000renmrb_'+deal_date2(date)+'_'+str(titleNo)+'-'+str(format_number(pageNo))+'.htm'
             html = fetchUrl(url)
             if html is None:
@@ -103,7 +103,8 @@ def download_rmrb(cnt, date, data, outpath):
             if img_urls==None or not len(img_urls):
                 # print(f"跳过URL {url} (无图片)")
                 continue
-
+            
+            print("author=",author)
             title = clean_name(title)
             author = clean_author(author)
             args = get_args(deal_date2(date), '第'+str(format_number(pageNo))+'版', pagename,'《'+title+'》', author, content, url, outpath)

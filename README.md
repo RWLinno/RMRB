@@ -14,7 +14,7 @@ Author: @rwlinno
 
 1.
 
-![image-20231218230242272](https://s2.loli.net/2023/12/18/5YIpSs6NJW7mDgE.png)
+![image-20231225201805118](https://s2.loli.net/2023/12/25/I1uXqM8brcjVJQU.png)
 
 2.
 
@@ -71,7 +71,13 @@ RMRB/
 
 ##### old_people.py
 
-用来爬上个世纪的人民日报，**还没写完**，会面临验证和拒绝访问等问题。
+支持爬1946-2023年的人民日报，会面临验证，拒绝访问，封IP等一系列问题，需要谨慎运行。
+
+使用新增的ddddocr库解决通用认证问题，重构了new_people.py中的代码。
+
+对以前格式杂乱的新闻报道进行了许多分类处理。
+
+
 
 ##### utils.py
 
@@ -87,7 +93,7 @@ RMRB/
 conda create -n RMRB python=3.8
 conda activate RMRB
 pip install -r requirements.txt
-python new_people.py
+python new_people.py #打开程序先调整好日期
 ```
 
 ![image-20231220132612994](https://s2.loli.net/2023/12/20/GW9eKigMBsD25fE.png)
@@ -96,15 +102,30 @@ python new_people.py
 
 ### 使用方法
 
+##### new_people.py: 
+
 修改下图所示参数，直接在IDE里运行爬虫程序即可。
 
 ![image-20231218232625885](https://s2.loli.net/2023/12/18/mg3HkYS5auhld4p.png)
 
 建议按月份分批次爬取数据。
 
+##### old_people.py：
+
+通用支持指定日期、时间范围以及整一年的爬取方式。也是直接运行程序就可以了。
+
+![image-20231225201242086](https://s2.loli.net/2023/12/25/J6TeAN3WKXgy5s9.png)
 
 
-### 待更新
 
-- 目前只能爬取新人民日报的数据，爬老人民日报(1957年之后)的程序oldpeople.py还没写完
-- 长时间范围下的爬虫容易断开连接，按月爬取比较容易
+##### 封IP的处理方式
+
+IP被封会有语句提示，通常是一次性爬取太多导致的，可以稍微修改sleep.time()以及，不需要太过担心。
+
+![image-20231225200742241](https://s2.loli.net/2023/12/25/5JGeEOIg7thx2Li.png)
+
+在页面点开F12，查看网络一栏，找到页面的cookie的请求头，并替换掉代码中的Cookie。
+
+![image-20231225200623549](https://s2.loli.net/2023/12/25/ztVTYCQ93pcBdAx.png)
+
+![image-20231225201048885](https://s2.loli.net/2023/12/25/P1VzHZhgCS4mcAd.png)

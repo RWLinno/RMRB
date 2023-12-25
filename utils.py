@@ -16,7 +16,7 @@ def fetchUrl(url):
         encoding = chardet.detect(r.content)['encoding']
         return r.content.decode(encoding)
     except requests.exceptions.RequestException as e:
-        print(f"无法获取URL {url} 的内容: {e}")
+    #    print(f"无法获取URL {url} 的内容: {e}")
         return None
 
 def deal_date1(date):
